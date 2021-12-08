@@ -666,7 +666,7 @@ easier to read */
                 $(this).val("annually")
                 $(".price").each(function (index) {
 
-                    $(this).text((+$(this).text().replace(",", "") * 80 / 100 * 11)
+                    $(this).text((+$(this).text().replace(",", "") * 90 / 100 * 11)
                         .toLocaleString())
 
                     $(document.querySelectorAll(".subscription-type")[index]).text("per Year")
