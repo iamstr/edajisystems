@@ -75,6 +75,10 @@
 
     }
 
+    * {
+        scroll-behavior: smooth;
+    }
+
     .hero-main {
 
         height: 100vh;
@@ -119,6 +123,29 @@ easier to read */
         display: flex;
         flex-direction: column;
     }
+
+    .partners-container {
+        overflow: hidden;
+        width: 40rem;
+        height: 100px;
+
+    }
+
+    .partners-img {
+
+        width: 100px;
+        height: 100px;
+        filter: grayscale(100%);
+        padding-left: .5rem;
+        border-radius: 5px;
+
+
+    }
+
+    .hero-main-pic {
+
+        height: 40rem;
+    }
 </style>
 <header class="header">
     <nav class="navbar navbar-expand-lg  fixed-top shadow pl-5 backdrop-filter">
@@ -158,10 +185,7 @@ easier to read */
 </header>
 <section class="hero position-relative">
     <div class="hero-main">
-        <picture class="hero-main-pic">
-            <source media="(min-width:650px)" srcset="assets/img/web/MaskGroup1.svg">
-            <img src="assets/img/web/MaskGroup1.svg" alt="Flowers" style="">
-        </picture>
+        <img src="assets/img/web/MaskGroup1.svg" alt="Flowers" style="" class="hero-main-pic">
     </div>
     <div class="hero-image">
         <div class="hero-text">
@@ -175,7 +199,19 @@ easier to read */
         </div>
     </div>
 </section>
-<section class="partners"></section>
+<section class="partners d-flex justify-content-center">
+    <article class="partners-container ">
+        <img src="assets/img/company/1/apple-icon-144x144.png" alt="" class="partners-img">
+        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
+        <img src="assets/img/company/41/apple-icon-152x152.png" alt="" class="partners-img">
+        <img src="assets/img/company/42/apple-icon-180x180.png" alt="" class="partners-img">
+        <img src="assets/img/company/54/logo_size_invert(1).jpg" alt="" class="partners-img">
+        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
+        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
+        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
+
+    </article>
+</section>
 <section class="why"></section>
 <section class="cta"></section>
 <section class="unconviced"></section>
