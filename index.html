@@ -62,7 +62,11 @@
     <link rel="stylesheet" href="assets/vendor/nucleo/css/nucleo.css" type="text/css">
     <link rel="stylesheet" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css'>
-    <link rel="stylesheet" href="bower_components/bootstrap-table/dist/bootstrap-table.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
     <!-- Page plugins -->
     <!-- Argon CSS -->
     <link rel="stylesheet" href="assets/css/argon.css?v=1.3.8" type="text/css">
@@ -133,7 +137,7 @@
 
 
     .plan-card:not(.plan-card:first-child) {
-        margin-left: .5rem;
+        /* margin-left: .5rem; */
     }
 
     .plan {
@@ -149,10 +153,10 @@
     .plan {
         width: 100%;
         height: 100%;
-        border: 2px solid #6845ff4a;
+        border: 2px solid rgb(228, 243, 243);
         transition: .5s;
         color: #8898aa;
-        background-color: transparent;
+        background-color: #fff;
     }
 
     .plan-radio {
@@ -162,18 +166,127 @@
 
     .plan-radio:checked~.plan {
 
-        border-color: #5e72e4;
-        background-color: #b4bbff45 !important;
-        color: #5e72e4;
+
+        background-image: linear-gradient(#6937fa, #7364f9);
+
         transform: scale(1.08);
+        position: absolute;
+        z-index: 10;
+    }
+
+    .plan-radio:checked~.plan,
+    .plan-radio:checked~.plan h3,
+
+    .plan-radio:checked~.plan h1 {
+
+        color: aqua;
+    }
+
+    .plan-radio:checked~.plan h4 {
+
+        color: #a3dfdf !important;
+    }
+</style>
+
+<style>
+    /* .container {
+        background-color: rgb(232, 242, 245);
+        padding: 50px 40px 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 5px 5px 25px #a7a7a7
+    } */
+
+    .tag {
+        text-align: center;
+        font-size: 1.1rem
+    }
+
+    .fa-heart {
+        color: rgba(255, 230, 0, 0.959);
+        font-size: 30px
+    }
+
+    .card-testimonial {
+        height: 320px;
+        padding: 10px 20px;
+        border: none;
+
+    }
+
+    .testimonial {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+        font-weight: 500
+    }
+
+    .active-star {
+        color: #FBC02D;
+        margin-bottom: 8px
+    }
+
+    .active-star:hover {
+        color: #F9A825;
+        cursor: pointer
+    }
+
+    .profile {
+        padding-top: 10px
+    }
+
+    .name {
+        font-weight: 700
+    }
+
+    .designation {
+        font-size: 0.84rem;
+        font-weight: 600
+    }
+
+    .owl-carousel {
+        margin-bottom: 15px
+    }
+
+    .owl-carousel .owl-stage-outer {
+        padding: 40px 10px;
+        height: 380px
+    }
+
+    .owl-carousel .owl-item img {
+        width: 45px !important;
+        height: 45px;
+        border-radius: 50%;
+        object-fit: cover
+    }
+
+    .owl-theme .owl-nav [class*='owl-'] {
+        border-radius: 50% !important;
+        background: inherit !important;
+        border: 3px solid #bbb;
+        color: #bbb !important
+    }
+
+    .owl-theme .owl-nav [class*='owl-']:hover {
+        border: 3px solid #1010ca;
+        color: #1010ca !important
+    }
+
+    @media(max-width: 575.5px) {
+        .container {
+            margin: 0px;
+            padding: 20px
+        }
     }
 </style>
 
 <style>
     .hero {
 
-        height: 100vh;
-
+        height: 1000px;
+        background-image: url("assets/img/web/Group\ 2057.png");
+        background-position: center;
+        background-size: cover;
     }
 
     html,
@@ -269,16 +382,38 @@ easier to read */
         height: 100%; */
     }
 
-    .hero-main {}
+    .hero-main {
+        background-image: url("assets/img/web/Group2036.svg");
+        background-position: center;
+        position: absolute;
+        background-size: 100px 80px;
+        background-repeat: no-repeat;
+
+        background-size: cover;
+    }
+
 
     .hero-main-pic {
 
         height: 54rem;
+
     }
 
     .dashboard-img {
 
         height: 40rem;
+    }
+
+    .pricing {
+
+        background-image: url("assets/img/web/Mask\ Group\ 58.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 500px;
+        background-blend-mode: color-dodge;
+        background-color: darkslateblue;
     }
 </style>
 
@@ -318,9 +453,12 @@ easier to read */
         </div>
     </nav>
 </header>
-<section class="hero position-relative">
+<section class="hero position-relative pb-5 mb-5 mt--7">
     <div class="hero-main">
-        <img src="assets/img/web/MaskGroup1.svg" alt="Flowers" style="" class="hero-main-pic">
+        <!-- <img src="assets/img/web/Group2036.svg" alt="Flowers" style="" class="hero-main-pic"> -->
+    </div>
+    <div class="hero-main">
+        <!-- <img src="assets/img/web/Group2036.svg" alt="Flowers" style="" class="hero-main-pic"> -->
     </div>
     <div class="hero-image">
         <div class="hero-text">
@@ -342,7 +480,7 @@ easier to read */
     </div>
 
 </section>
-<section class="partners d-flex justify-content-center py-5 my-5">
+<section class="partners  justify-content-center py-5 my-5 d-none">
     <article class="partners-container ">
         <img src="assets/img/company/1/apple-icon-144x144.png" alt="" class="partners-img">
         <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
@@ -411,15 +549,129 @@ easier to read */
     <img src="assets/img/web/Mask Group 56.jpg" alt="" class="cta-img">
 </section>
 <section class="unconviced"></section>
-<section class="testimonials"></section>
-<section class="pricing">
+<section class="testimonials">
 
 
 
-    <h1 class="h1 my-3 text-center "> Choose the right plan for your company The first month is free you will not be
+
+
+    <div class="container rounded">
+        <div class="d-flex justify-content-center fas fa-heart"></div>
+        <p class="tag">Our customers love</p>
+        <h1 class="text-primary text-center head">What we do</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="owl-item">
+                <div class="card-testimonial d-flex flex-column shadow rounded">
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span
+                            class="fas fa-star-half-alt active-star"></span>
+                    </div>
+                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
+                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="" class="rounded-circle">
+                        <div class="d-flex flex-column pl-2">
+                            <div class="name">Megan</div>
+                            <p class="text-muted designation">CEO of My Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="card-testimonial d-flex flex-column shadow rounded">
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span
+                            class="fas fa-star-half-alt active-star"></span>
+                    </div>
+                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
+                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="" class="rounded-circle">
+                        <div class="d-flex flex-column pl-2">
+                            <div class="name">Megan</div>
+                            <p class="text-muted designation">CEO of My Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="card-testimonial d-flex flex-column shadow rounded">
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span
+                            class="fas fa-star-half-alt active-star"></span>
+                    </div>
+                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
+                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="" class="rounded-circle">
+                        <div class="d-flex flex-column pl-2">
+                            <div class="name">Megan</div>
+                            <p class="text-muted designation">CEO of My Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="card-testimonial d-flex flex-column shadow rounded">
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span
+                            class="fas fa-star-half-alt active-star"></span>
+                    </div>
+                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
+                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="" class="rounded-circle">
+                        <div class="d-flex flex-column pl-2">
+                            <div class="name">Megan</div>
+                            <p class="text-muted designation">CEO of My Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="card-testimonial d-flex flex-column shadow rounded">
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
+                            class="fas fa-star active-star"></span> <span
+                            class="fas fa-star-half-alt active-star"></span>
+                    </div>
+                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
+                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="" class="rounded-circle">
+                        <div class="d-flex flex-column pl-2">
+                            <div class="name">Megan</div>
+                            <p class="text-muted designation">CEO of My Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pricing my-5 py-5">
+
+
+
+    <h1 class="h1 py-3 mt-5 text-center "> Choose the right plan for your company The first month is free you will not
+        be
         billed
     </h1>
-    <div class="container mt-5">
+    <div class="container pb-5">
         <div class="subscription row align-items-center justify-content-center">
             <h3 class="text-muted">Billed Monthly</h3>
             <label class="switch mx-3">
@@ -432,7 +684,7 @@ easier to read */
         <div class="plans row no-gutters my-6">
             <label class="plan-card col d-none ">
                 <input type="radio" class="plan-radio" name="plan-radio" value="2" />
-                <div class="card plan shadow-none bg-transparent rounded-lg p-3">
+                <div class="card plan shadow-none  rounded-lg p-3">
                     <h3 class="plan-name text-center">Lite</h3>
                     <h1 class="plan-name text-center h1 pb-3">KES <span class="price">2,500</span></h1>
                     <h4 class="plan-name text-center h4 pb-3 subscription-type text-muted">per Month</h4>
@@ -444,27 +696,9 @@ easier to read */
                     <p>Track Expenses</p>
                 </div>
             </label>
-            <label class="plan-card col ">
-                <input type="radio" class="plan-radio" name="plan-radio" checked value="3" />
-                <div class="card plan shadow-none bg-transparent rounded-lg p-3">
-                    <h3 class="plan-name text-center">plus</h3>
-                    <h1 class="plan-name text-center h1 pb-1">KES <span class="price">3,000</span></h1>
-                    <h4 class="plan-name text-center h4 pb-3 subscription-type text-muted">per Month</h4>
-                    <p>Reports & Dashboard</p>
-                    <p>Collecting Bio Data</p>
-                    <p>CV Generation</p>
-                    <p>Organize Doc</p>
-                    <p>Track Client Progress</p>
-                    <p>Track Expenses</p>
-                    <p>Track Expenses per client</p>
-                    <p>Track Office Expenses</p>
-                    <p>Track Account Payables</p>
-                    <p>Track Profit & Loss Statement</p>
-                </div>
-            </label>
-            <label class="plan-card col ">
+            <label class="plan-card col-md-12 col-lg order-sm-1  order-2">
                 <input type="radio" class="plan-radio" name="plan-radio" value="4" />
-                <div class="card plan shadow-none bg-transparent rounded-lg p-3">
+                <div class="card plan shadow-none  rounded-lg p-3">
                     <h3 class="plan-name text-center">Ultra</h3>
                     <h1 class="plan-name text-center h1 pb-3">KES <span class="price">3,500</span></h1>
                     <h4 class="plan-name text-center h4 pb-3 subscription-type text-muted">per Month</h4>
@@ -482,9 +716,28 @@ easier to read */
                     <p>Mobile App Access</p>
                 </div>
             </label>
-            <label class="plan-card col ">
+            <label class="plan-card col-md-12 col-lg order-sm-2 order-1">
+                <input type="radio" class="plan-radio" name="plan-radio" checked value="3" />
+                <div class="card plan shadow-none  rounded-lg p-3">
+                    <h3 class="plan-name text-center">plus</h3>
+                    <h1 class="plan-name text-center h1 pb-1">KES <span class="price">3,000</span></h1>
+                    <h4 class="plan-name text-center h4 pb-3 subscription-type text-muted">per Month</h4>
+                    <p>Reports & Dashboard</p>
+                    <p>Collecting Bio Data</p>
+                    <p>CV Generation</p>
+                    <p>Organize Doc</p>
+                    <p>Track Client Progress</p>
+                    <p>Track Expenses</p>
+                    <p>Track Expenses per client</p>
+                    <p>Track Office Expenses</p>
+                    <p>Track Account Payables</p>
+                    <p>Track Profit & Loss Statement</p>
+                </div>
+            </label>
+
+            <label class="plan-card col-md-12 col-lg order-sm-3 order-3 ">
                 <input type="radio" class="plan-radio" name="plan-radio" value="5" />
-                <div class="card plan shadow-none bg-transparent rounded-lg p-3">
+                <div class="card plan shadow-none  rounded-lg p-3">
                     <h3 class="plan-name text-center">Premium</h3>
                     <h1 class="plan-name text-center h1 pb-3">KES <span class="price">4,500</span></h1>
                     <h4 class="plan-name text-center h4 pb-3 subscription-type text-muted">per Month</h4>
@@ -506,7 +759,7 @@ easier to read */
                 </div>
             </label>
         </div>
-
+    </div>
 
 </section>
 <section class="faq bg-white py-5 my-5">
@@ -619,9 +872,22 @@ easier to read */
 <section class="footer"></section>
 <section class="lower-footer"></section>
 
+<!-- Argon Scripts -->
+<!-- Core -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js" defer></script>
+<script src="assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+<script src="assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+<!-- Optional JS -->
+
+
 
 
 <!-- Argon JS -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
 <script type="text/javascript">
     window.onload = () => {
         "use strict";
@@ -651,13 +917,6 @@ easier to read */
 
 
 <script>
-    $(window).on("load", function () {
-
-        $(".container-boxes").fadeOut();
-    });
-
-
-
     $(document).ready(function () {
 
         $('[name="subscription"]').change(function () {
@@ -681,40 +940,6 @@ easier to read */
                 })
             }
         })
-
-        function formatState(state) {
-            if (!state.id) {
-                return state.text;
-            }
-
-            var baseUrl = "/user/pages/images/flags";
-            var $state = $(
-                '<span class="badge badge-pill badge-primary"></span>'
-            );
-
-
-            $state.parent().css({
-                background: "pink !important"
-            })
-            // Use .text() instead of HTML string concatenation to avoid script injection issues
-            $state.text(state.text);
-            console.log($state.parentElement)
-            console.log($state)
-            return $state;
-        };
-
-
-
-
-        $('.js-example-basic-multiple').select2({
-            placeholder: 'Select an option',
-            tags: true,
-            // text: 'Select an option',
-            templateSelection: formatState,
-            theme: "bootstrap",
-
-
-        });
 
 
         const pathname = (window.location.pathname).replace("/", "")
@@ -783,6 +1008,40 @@ easier to read */
 
 
     })
+</script>
+<script>
+    $(document).ready(function () {
+        var silder = $(".owl-carousel");
+        silder.owlCarousel({
+            autoPlay: false,
+            items: 1,
+            center: false,
+            nav: true,
+            margin: 40,
+            dots: false,
+            loop: true,
+            navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+                "<i class='fa fa-arrow-right' aria-hidden = 'true' > </i>"
+            ],
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                575: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                991: {
+                    items: 3
+                },
+                1200: {
+                    items: 4
+                }
+            }
+        });
+    });
 </script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
