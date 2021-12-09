@@ -285,9 +285,15 @@
 
         height: 1000px;
         background-image: url("assets/img/web/Group\ 2057.png");
+        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        animation: bg-flip 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+        -webkit-animation: bg-flip 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+
     }
+
+
 
     html,
     body {
@@ -359,19 +365,38 @@ easier to read */
 
     .partners-container {
         overflow: hidden;
-        width: 40rem;
-        height: 100px;
+        width: 60rem;
+        height: 200px;
 
     }
 
     .partners-img {
 
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         filter: grayscale(100%);
         padding-left: .5rem;
         border-radius: 5px;
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+        transition: .5s all;
 
+    }
+
+    .partners-img.active-partner,
+    .partners-img:hover {
+
+        filter: grayscale(0%);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+
+
+    }
+
+    .partners-img.active-partner {
+        animation: moveLeft 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
 
     }
 
@@ -415,6 +440,45 @@ easier to read */
         background-blend-mode: color-dodge;
         background-color: darkslateblue;
     }
+
+    .btn-linear-primary,
+    .btn-linear-primary:focus,
+    .btn-linear-primary:hover {
+
+        background-image: -webkit-linear-gradient(#5B2AEE, #935EE4);
+        color: aqua
+    }
+
+    .text-aqua {
+
+
+        color: aqua;
+    }
+
+    .features {
+
+        background: #f0fffb;
+    }
+</style>
+<style>
+    @keyframes bg-flip {
+
+
+        /* to {
+
+            background-position: top left;
+        } */
+    }
+
+    @keyframes moveLeft {
+
+
+        to {
+
+            -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+        }
+    }
 </style>
 
 <header class="header">
@@ -453,7 +517,7 @@ easier to read */
         </div>
     </nav>
 </header>
-<section class="hero position-relative pb-5 mb-5 mt--7">
+<section class="hero position-relative pb-5 mb-5 mt--8">
     <div class="hero-main">
         <!-- <img src="assets/img/web/Group2036.svg" alt="Flowers" style="" class="hero-main-pic"> -->
     </div>
@@ -480,13 +544,13 @@ easier to read */
     </div>
 
 </section>
-<section class="partners  justify-content-center py-5 my-5 d-none">
+<section class="partners  justify-content-center py-5 my-5 d-flex">
     <article class="partners-container ">
-        <img src="assets/img/company/1/apple-icon-144x144.png" alt="" class="partners-img">
-        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
-        <img src="assets/img/company/41/apple-icon-152x152.png" alt="" class="partners-img">
-        <img src="assets/img/company/42/apple-icon-180x180.png" alt="" class="partners-img">
-        <img src="assets/img/company/54/logo_size_invert(1).jpg" alt="" class="partners-img">
+        <img src="assets/img/company/1/apple-icon-144x144.png" alt="" class="partners-img ">
+        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img ">
+        <img src="assets/img/company/41/apple-icon-152x152.png" alt="" class="partners-img ">
+        <img src="assets/img/company/42/apple-icon-180x180.png" alt="" class="partners-img ">
+        <img src="assets/img/company/54/logo_size_invert(1).jpg" alt="" class="partners-img ">
         <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
         <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
         <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
@@ -541,8 +605,236 @@ easier to read */
 <section class="cta position-relative py-5 my-5">
 
     <div class="cta-text position-absolute">
-        <h2 class="display-3 text-white ">Ready to Get Started</h2>
-        <p>Starting using and the first month is on us ,no credit needed to get started </p>
+        <h2 class="display-3 text-aqua ">Ready to Get Started</h2>
+        <p class=" text-aqua"> Starting using and the first month is on us ,no credit needed to get started </p>
+        <button class="btn btn-block btn-lg btn-white w-25 h-100 mt-0 mx-auto">Hire me</button>
+
+    </div>
+    <img src="assets/img/web/Mask Group 56.jpg" alt="" class="cta-img">
+</section>
+<section class="features py-5 my-5  ">
+    <article class="container p-5">
+
+
+
+        <div class="row my-4 no-gutters">
+
+            <div class="col-md-12 col-lg-5">
+                <video src="assets/videos/8172-file-folderbox.mp4" autoplay loop></video>
+            </div>
+
+            <div class="col-md-12 col-lg-7  bg-white p-3">
+                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
+                    reprehenderit maxime
+                    commodi
+                    explicabo doloribus ab</h3>
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
+                    maiores
+                    dolorem
+                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
+                    aliquam?
+                </p>
+
+
+            </div>
+        </div>
+        <div class="row my-4 no-gutters">
+
+            <div class="col-md-12 col-lg-8">
+                <video src="assets/videos/55929-dasera-usercloud-interaction.mp4" autoplay loop></video>
+            </div>
+
+            <div class="col-md-12 col-lg-4  bg-white p-3">
+                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
+                    reprehenderit maxime
+                    commodi
+                    explicabo doloribus ab</h3>
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
+                    maiores
+                    dolorem
+                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
+                    aliquam?
+                </p>
+            </div>
+        </div>
+        <div class="row my-4 no-gutters">
+
+            <div class="col-md-12 col-lg-8">
+                <video src="assets/videos/6776-blushing-ghost.mp4" autoplay loop></video>
+            </div>
+
+            <div class="col-md-12 col-lg-4  bg-white p-3">
+
+                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
+                    reprehenderit maxime
+                    commodi
+                    explicabo doloribus ab</h3>
+
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
+                    maiores
+                    dolorem
+                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
+                    aliquam?
+                </p>
+
+            </div>
+        </div>
+        <div class="row my-4 no-gutters">
+            <div class="col-md-12 col-lg-4  bg-white p-3">
+                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
+                    reprehenderit maxime
+                    commodi
+                    explicabo doloribus ab</h3>
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
+                    maiores
+                    dolorem
+                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
+                    aliquam?
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-8">
+                <video src="assets/videos/17341-easy-to-track-animation.mp4" autoplay loop></video>
+            </div>
+        </div>
+        <div class="row my-4" no-gutters>
+            <div class="col-md-12 col-lg-4  bg-white p-3">
+
+                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
+                    reprehenderit maxime
+                    commodi
+                    explicabo doloribus ab</h3>
+
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
+                    maiores
+                    dolorem
+                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
+                    aliquam?
+                </p>
+
+            </div>
+            <div class="col-md-12 col-lg-8">
+                <video src="assets/videos/2512-point.mp4" autoplay loop></video>
+            </div>
+
+
+        </div>
+        <div class="row my-4 no-gutters">
+
+
+            <div class="col-md-12 col-lg-4  bg-white p-3">
+                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
+                    reprehenderit maxime
+                    commodi
+                    explicabo doloribus ab</h3>
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
+                    maiores
+                    dolorem
+                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
+                    aliquam?
+                </p>
+            </div>
+            <div class="col-md-12 col-lg-8">
+                <video src="assets/videos/66714-lock.mp4" autoplay loop></video>
+            </div>
+        </div>
+
+
+        <div class="row my-7 no-gutters">
+            <div class="col-md-12 col-lg-6">
+                <img src="assets/img/web/hero-image.png" alt="" style="width: 100%;">
+            </div>
+            <div class=" col-md-12 col-lg-6 bg-white">
+                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
+                    reprehenderit maxime
+                    commodi
+                    explicabo doloribus ab</h3>
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
+                    maiores
+                    dolorem
+                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
+                    aliquam?
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="row my-4 no-gutters">
+            <div class="col-md-12 col-lg-4  bg-white p-3">
+
+                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
+                    reprehenderit maxime
+                    commodi
+                    explicabo doloribus ab</h3>
+
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
+                    maiores
+                    dolorem
+                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
+                    aliquam?
+                </p>
+
+            </div>
+            <div class="col-md-12 col-lg-8">
+                <video src="assets/videos/7479-access-denied.mp4" autoplay loop></video>
+            </div>
+
+
+        </div>
+
+
+        <div class="row my-4 no-gutters">
+            <div class="col-md-12 col-lg-4  bg-white p-3">
+
+                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
+                    reprehenderit maxime
+                    commodi
+                    explicabo doloribus ab</h3>
+
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
+                    maiores
+                    dolorem
+                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
+                    aliquam?
+                </p>
+
+            </div>
+            <div class="col-md-12 col-lg-8">
+                <video src="assets/videos/58665-open-excel-at-cloud.mp4" autoplay loop></video>
+            </div>
+
+
+        </div>
+        <div class="row my-4 no-gutters">
+            <div class="col-md-12 col-lg-8">
+                <video src="assets/videos/1766-bar-graph.mp4" autoplay loop></video>
+            </div>
+
+            <div class="col-md-12 col-lg-4  bg-white p-3">
+
+                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
+                    reprehenderit maxime
+                    commodi
+                    explicabo doloribus ab</h3>
+
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
+                    maiores
+                    dolorem
+                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
+                    aliquam?
+                </p>
+
+            </div>
+
+
+        </div>
+    </article>
+</section>
+<section class="cta position-relative py-5 my-5">
+
+    <div class="cta-text position-absolute">
+        <h2 class="display-3 text-aqua ">Ready to Get Started</h2>
+        <p class=" text-aqua"> Starting using and the first month is on us ,no credit needed to get started </p>
         <button class="btn btn-block btn-lg btn-white w-25 h-100 mt-0 mx-auto">Hire me</button>
 
     </div>
@@ -863,7 +1155,7 @@ easier to read */
                 placeholder="i am contacting you over this job"></textarea>
         </div>
 
-        <button class="btn btn-block btn-primary w-50">
+        <button class="btn btn-block btn-linear-primary w-50">
             Send Us a Message
         </button>
     </form>
@@ -918,6 +1210,27 @@ easier to read */
 
 <script>
     $(document).ready(function () {
+        setTimeout(function () {
+            let count = 0
+            $(".partners-img").each(function (elem, index) {
+                $(this).css({
+                    display: "none"
+                })
+
+
+                if (count > $(".partners-img").length) {
+                    count = 1
+
+                }
+                document.querySelectorAll(".partners-img")[count - 1].addClass("active-partner")
+                document.querySelectorAll(".partners-img")[count - 1].style.display =
+                    "inline-block"
+
+                count += 1
+
+            })
+        }, 2000)
+
 
         $('[name="subscription"]').change(function () {
             const beforePriceChange = ["2500", "3000", "3500", "4500"]
