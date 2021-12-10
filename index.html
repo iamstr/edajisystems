@@ -281,6 +281,11 @@
 </style>
 
 <style>
+    ::root {
+
+        --delay: 1s;
+    }
+
     .hero {
 
         height: 1000px;
@@ -365,8 +370,18 @@ easier to read */
 
     .partners-container {
         overflow: hidden;
+        display: inline-flex;
         width: 60rem;
         height: 200px;
+        /* animation: slide 22s ease infinite; */
+
+    }
+
+    .partners-container:hover,
+    .partners-img:hover {
+
+
+        animation-play-state: paused;
 
     }
 
@@ -382,8 +397,11 @@ easier to read */
         -webkit-transform: translateX(0px);
         transform: translateX(0px);
         transition: .5s all;
+        animation: sli 5s ease var(--delay) infinite;
 
     }
+
+
 
     .partners-img.active-partner,
     .partners-img:hover {
@@ -395,10 +413,7 @@ easier to read */
 
     }
 
-    .partners-img.active-partner {
-        animation: moveLeft 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
 
-    }
 
     .hero-dashboard {
 
@@ -443,7 +458,8 @@ easier to read */
 
     .btn-linear-primary,
     .btn-linear-primary:focus,
-    .btn-linear-primary:hover {
+    .btn-linear-primary:hover,
+    .bg-linear-primary {
 
         background-image: -webkit-linear-gradient(#5B2AEE, #935EE4);
         color: aqua
@@ -459,6 +475,8 @@ easier to read */
 
         background: #f0fffb;
     }
+
+    footer {}
 </style>
 <style>
     @keyframes bg-flip {
@@ -477,6 +495,23 @@ easier to read */
 
             -webkit-transform: translateX(-200px);
             transform: translateX(-200px);
+        }
+    }
+
+
+    @keyframes sli {
+        0% {
+            transform: translateX(0%);
+            opacity: 0;
+
+        }
+
+
+
+        100% {
+            transform: translateX(-200px);
+            opacity: .8;
+
         }
     }
 </style>
@@ -546,14 +581,14 @@ easier to read */
 </section>
 <section class="partners  justify-content-center py-5 my-5 d-flex">
     <article class="partners-container ">
-        <img src="assets/img/company/1/apple-icon-144x144.png" alt="" class="partners-img ">
-        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img ">
-        <img src="assets/img/company/41/apple-icon-152x152.png" alt="" class="partners-img ">
-        <img src="assets/img/company/42/apple-icon-180x180.png" alt="" class="partners-img ">
-        <img src="assets/img/company/54/logo_size_invert(1).jpg" alt="" class="partners-img ">
-        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
-        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
-        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img">
+        <img src="assets/img/company/MOYAT_LOGO.jpeg" alt="" class="partners-img" style="--delay: 0s">
+        <img src="assets/img/company/zakeir.png" alt="" class="partners-img" style="--delay: 1s">
+        <img src="assets/img/company/lipasama logo.jpg" alt="" class="partners-img" style="--delay: 2s">
+        <img src="assets/img/company/emitek_logo_png-1.png" alt="" class="partners-img" style="--delay: 3s">
+        <img src="assets/img/company/logo.jpg" alt="" class="partners-img" style="--delay: 4s">
+        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img" style="--delay: 5s">
+        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img" style="--delay: 6s">
+        <img src="assets/img/company/40/back.jpg" alt="" class="partners-img" style="--delay: 7s">
 
     </article>
 </section>
@@ -1163,7 +1198,148 @@ easier to read */
 <section class="cta"></section>
 <section class="footer"></section>
 <section class="lower-footer"></section>
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3 bg-dark py-5 mt-5">
 
+    <!-- Footer Elements -->
+    <div class="container">
+
+        <!-- Grid row-->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-12 py-5">
+                <!-- Footer Links -->
+                <div class="container text-center text-md-left mt-5">
+
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                            <!-- Content -->
+                            <h6 class="text-uppercase font-weight-bold">Company name</h6>
+                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                            <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
+                                amet,
+                                consectetur
+                                adipisicing elit.</p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                            <!-- Links -->
+                            <h6 class="text-uppercase font-weight-bold">Products</h6>
+                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                            <p>
+                                <a href="#!">MDBootstrap</a>
+                            </p>
+                            <p>
+                                <a href="#!">MDWordPress</a>
+                            </p>
+                            <p>
+                                <a href="#!">BrandFlow</a>
+                            </p>
+                            <p>
+                                <a href="#!">Bootstrap Angular</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                            <!-- Links -->
+                            <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                            <p>
+                                <a href="#!">Your Account</a>
+                            </p>
+                            <p>
+                                <a href="#!">Become an Affiliate</a>
+                            </p>
+                            <p>
+                                <a href="#!">Shipping Rates</a>
+                            </p>
+                            <p>
+                                <a href="#!">Help</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                            <!-- Links -->
+                            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                            <p>
+                                <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                            <p>
+                                <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                            <p>
+                                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                            <p>
+                                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row -->
+
+                </div>
+                <!-- Footer Links -->
+                <div class="mb-5 py-5 d-flex  justify-content-center bg-linear-primary rounded-lg">
+
+                    <!-- Facebook -->
+                    <a class="fb-ic">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic">
+                        <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Google +-->
+                    <a class="gplus-ic">
+                        <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic">
+                        <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic">
+                        <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Pinterest-->
+                    <a class="pin-ic">
+                        <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 <!-- Argon Scripts -->
 <!-- Core -->
 <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -1210,26 +1386,13 @@ easier to read */
 
 <script>
     $(document).ready(function () {
-        setTimeout(function () {
-            let count = 0
-            $(".partners-img").each(function (elem, index) {
-                $(this).css({
-                    display: "none"
-                })
 
 
-                if (count > $(".partners-img").length) {
-                    count = 1
 
-                }
-                document.querySelectorAll(".partners-img")[count - 1].addClass("active-partner")
-                document.querySelectorAll(".partners-img")[count - 1].style.display =
-                    "inline-block"
 
-                count += 1
 
-            })
-        }, 2000)
+
+
 
 
         $('[name="subscription"]').change(function () {
@@ -1253,6 +1416,28 @@ easier to read */
                 })
             }
         })
+
+
+        let count = 0
+
+        $(".partners-img").each(function (index, elem) {
+
+            console.log(elem)
+            document.querySelectorAll(".partners-img")[index].addEventListener("animationend",
+                function () {
+                    console.log($(this))
+                    if ((index - 1) < 0) {
+                        document.querySelectorAll(".partners-img")[index].style.display = "none"
+
+                    } else {
+
+                        document.querySelectorAll(".partners-img")[index - 1].style.display = "none"
+                    }
+
+                });
+
+        })
+
 
 
         const pathname = (window.location.pathname).replace("/", "")
