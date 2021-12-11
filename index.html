@@ -369,7 +369,7 @@ easier to read */
     }
 
     .partners-container {
-        width: 40rem;
+        width: 50rem;
         overflow: hidden;
     }
 
@@ -484,7 +484,7 @@ easier to read */
 
 
     .slide {
-        animation: slide 15s cubic-bezier(0.075, 0.82, 0.165, 1) forwards infinite;
+        animation: sli 20s steps(1000, start) alternate infinite;
     }
 </style>
 <style>
@@ -509,17 +509,13 @@ easier to read */
 
 
     @keyframes sli {
-        0% {
-            transform: translateX(0%);
-            opacity: 0;
 
-        }
 
 
 
         100% {
-            transform: translateX(-200px);
-            opacity: .8;
+            transform: translateX(-100%);
+            opacity: .1;
 
         }
     }
@@ -531,15 +527,35 @@ easier to read */
             transform: translateX(0%);
         }
 
-        12.5% {
-            transform: translateX(0%);
+        5% {}
+
+        10% {}
+
+        15% {
+            transform: translateX(-15%);
+        }
+
+        20% {
+            transform: translateX(-25%);
         }
 
         25% {
             transform: translateX(-25%);
         }
 
-        37.5% {
+        30% {
+            transform: translateX(-25%);
+        }
+
+        35% {
+            transform: translateX(-25%);
+        }
+
+        45% {
+            transform: translateX(-25%);
+        }
+
+        45% {
             transform: translateX(-25%);
         }
 
@@ -547,27 +563,46 @@ easier to read */
 
         50% {
             transform: translateX(-50%);
-            opacity: .5s;
         }
 
-        62.5% {
+        50% {
             transform: translateX(-50%);
         }
 
-        75% {
-            transform: translateX(-75%);
+        50% {
+            transform: translateX(-50%);
         }
 
-        87.5% {
-            transform: translateX(-75%);
+        50% {
+            transform: translateX(-50%);
         }
 
-        99% {
+        50% {
+            transform: translateX(-50%);
+        }
+
+        50% {
+            transform: translateX(-50%);
+        }
+
+        50% {
+            transform: translateX(-50%);
+        }
+
+        50% {
+            transform: translateX(-50%);
+        }
+
+        50% {
+            transform: translateX(-50%);
+        }
+
+        95% {
             transform: translateX(-75%);
         }
 
         100% {
-            transform: translateX(0);
+            transform: translateX(-100%);
             opacity: .1;
         }
     }
@@ -575,8 +610,8 @@ easier to read */
 
 <header class="header">
     <nav class="navbar navbar-expand-lg  fixed-top shadow pl-5 backdrop-filter">
-        <a class="navbar-brand" href="#home"><img loading="lazy" src="assets/logo/ALYA-LOGO.png" alt="ALYA AGENCY"
-                width="30" height="30"></a>
+        <a class="navbar-brand" href="#home"><img loading="lazy" src="assets/img/edaji/favicon-96x96.png"
+                alt="EDAJI SYSTEMS LTD" width="30" height="30"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -590,17 +625,20 @@ easier to read */
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link scroll" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link scroll" href="#hero">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link scroll" href="#why">Why Choose Us</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link scroll" href="#job">Current Job List</a>
+                    <a class="nav-link scroll" href="#partners">Our Partners</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link scroll" href="#other">Other Job List</a>
+                    <a class="nav-link scroll" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll" href="#faq">FAQs</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link scroll" href="#contact">Contact Us</a>
@@ -609,7 +647,7 @@ easier to read */
         </div>
     </nav>
 </header>
-<section class="hero position-relative pb-5 mb-8 mt--8">
+<section class="hero position-relative pb-5 mb-8 mt--8" id="hero">
     <div class="hero-main">
         <!-- <img src="assets/img/web/Group2036.svg" alt="Flowers" style="" class="hero-main-pic"> -->
     </div>
@@ -638,7 +676,7 @@ easier to read */
     </div>
 
 </section>
-<section class="partners  py-5 my-5 ">
+<section class="partners  py-5 my-5 " id="partners">
     <h2 class="display-3 px-lg-5 mx-lg-5 mt-5 pt-5 text-center">Our Partners</h2>
     <div class="justify-content-center d-flex">
         <div class="partners-container mt-5 pt-5">
@@ -657,7 +695,7 @@ easier to read */
         </div>
     </div>
 </section>
-<section class="why py-5 my-5">
+<section class="why py-5 bg-info" id="why">
     <h2 class="display-3 px-lg-5 mx-lg-5 mt-5 pt-5 text-center">Why Choose Us?</h2>
     <h4 class="h4 px-lg-5 mx-lg-5 mb-5 font-weight-400 pt-3 text-center">
         We believe in good organization leads to better workflow and productivity.
@@ -699,17 +737,17 @@ easier to read */
 
     </h4>
 </section>
-<section class="cta position-relative py-5 my-5">
+<section class="cta position-relative py-5 my-5 d-none">
 
     <div class="cta-text position-absolute">
         <h2 class="display-3 text-aqua ">Ready to Get Started</h2>
         <p class=" text-aqua"> Starting using and the first month is on us ,no credit needed to get started </p>
-        <button class="btn btn-block btn-lg btn-white w-25 h-100 mt-0 mx-auto">Hire me</button>
+        <button class="btn btn-block btn-lg btn-white w-25 h-100 mt-0 mx-auto">Try it for free</button>
 
     </div>
     <img src="assets/img/web/Mask Group 56.jpg" alt="" class="cta-img">
 </section>
-<section class="features py-5 my-5  ">
+<section class="features py-5   " id="features">
     <article class="container p-5">
 
 
@@ -721,15 +759,10 @@ easier to read */
             </div>
 
             <div class="col-md-12 col-lg-7  bg-white p-3">
-                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
-                    reprehenderit maxime
-                    commodi
-                    explicabo doloribus ab</h3>
-                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
-                    maiores
-                    dolorem
-                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
-                    aliquam?
+                <h3 class=" px-5 pt-5">All Your Client Files are backed up in the Cloud</h3>
+                <p class="px-5">Your documents are stored in a secure cloud and are perfectly safe, yet if you wish, you
+                    can easily download the whole account or individual files/folders to your hard-drive as often as you
+                    like for your local backup.
                 </p>
 
 
@@ -742,15 +775,9 @@ easier to read */
             </div>
 
             <div class="col-md-12 col-lg-4  bg-white p-3">
-                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
-                    reprehenderit maxime
-                    commodi
-                    explicabo doloribus ab</h3>
-                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
-                    maiores
-                    dolorem
-                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
-                    aliquam?
+                <h3 class=" px-5 pt-5">Ease of Use</h3>
+                <p class="px-5"> use concurrently and accessible to you from every PC, Mac, tablet
+                    or smartphone with an internet connection. Work from Anywhere
                 </p>
             </div>
         </div>
@@ -762,118 +789,136 @@ easier to read */
 
             <div class="col-md-12 col-lg-4  bg-white p-3">
 
-                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
-                    reprehenderit maxime
-                    commodi
-                    explicabo doloribus ab</h3>
-
-                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
-                    maiores
-                    dolorem
-                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
-                    aliquam?
+                <h3 class=" px-5 pt-5">Ease of Use</h3>
+                <p class="px-5">Edaji is developed with you in mind and is simple to use, and additional information and
+                    support is easily accessible;we are confident even an infant can use it
                 </p>
 
             </div>
         </div>
         <div class="row my-4 no-gutters">
-            <div class="col-md-12 col-lg-4  bg-white p-3">
-                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
-                    reprehenderit maxime
-                    commodi
-                    explicabo doloribus ab</h3>
-                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
-                    maiores
-                    dolorem
-                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
-                    aliquam?
-                </p>
+            <div class="col-md-12 col-lg-5 bg-white p-3">
+                <h3 class=" px-5 pt-5">Accounting made simple</h3>
+                <p class="px-5">Our integrated accounting software packages are designed with your company in mind</p>
+                <p class="px-5"><img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">Track Client Expenses</span></p>
+                <p class="px-5"><img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">Track Operation Costs</span></p>
+                <p class="px-5"><img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">Record Your Revenue</span></p>
+
             </div>
-            <div class="col-md-12 col-lg-8">
+            <div class="col-md-12 col-lg-7">
                 <video src="assets/videos/17341-easy-to-track-animation.mp4" autoplay loop></video>
             </div>
         </div>
-        <div class="row my-4" no-gutters>
-            <div class="col-md-12 col-lg-4  bg-white p-3">
 
-                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
-                    reprehenderit maxime
-                    commodi
-                    explicabo doloribus ab</h3>
-
-                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
-                    maiores
-                    dolorem
-                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
-                    aliquam?
-                </p>
-
-            </div>
-            <div class="col-md-12 col-lg-8">
-                <video src="assets/videos/2512-point.mp4" autoplay loop></video>
-            </div>
-
-
-        </div>
         <div class="row my-4 no-gutters">
 
 
-            <div class="col-md-12 col-lg-4  bg-white p-3">
-                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
-                    reprehenderit maxime
-                    commodi
-                    explicabo doloribus ab</h3>
-                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
-                    maiores
-                    dolorem
-                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
-                    aliquam?
+            <div class="col-md-12 col-lg-5  bg-white p-3">
+                <h3 class=" px-5 pt-5">Safe & Secure</h3>
+                <p class="px-5">Your Data is safely stored and is transferred via secure SSL layer.your employees can
+                    access and share information securely from anywhere and on any device.your employees can access and
+                    share information securely from anywhere and on any device.We have adopted best practice
+                    cybersecurity
+                    and privacy controls.
                 </p>
             </div>
-            <div class="col-md-12 col-lg-8">
+            <div class="col-md-12 col-lg-7">
                 <video src="assets/videos/66714-lock.mp4" autoplay loop></video>
             </div>
         </div>
 
 
-        <div class="row my-7 no-gutters">
-            <div class="col-md-12 col-lg-6">
+        <div class="row my-7 no-gutters py-5 h-100">
+            <div class="col-md-12 col-lg-7 bg-white py-5">
                 <img src="assets/img/web/hero-image.png" alt="" style="width: 100%;">
             </div>
-            <div class=" col-md-12 col-lg-6 bg-white">
-                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
-                    reprehenderit maxime
-                    commodi
-                    explicabo doloribus ab</h3>
-                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
-                    maiores
-                    dolorem
-                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
-                    aliquam?
+            <div class=" col-md-12 col-lg-5 bg-white pt-5">
+                <h3 class=" px-5 pt-5">Support & Maintenance</h3>
+                <h3 class=" px-5 pt-2">Our technical and user support, and ongoing content updates from time to
+                    time.</h3>
+
+                <p class=" px-5 d-flex">
+                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">
+
+                        Version upgrades & enhancements
+
+                    </span>
                 </p>
+                <p class=" px-5 d-flex">
+                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">
+
+                        Comprehensive user support
+
+                    </span>
+                </p>
+                <p class=" px-5 d-flex">
+                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">
+
+                        Technical troubleshooting
+
+                    </span>
+                </p>
+                <p class=" px-5 d-flex">
+                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">
+
+                        Performance monitoring
+
+                    </span>
+                </p>
+                <p class=" px-5 d-flex pb-7">
+                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">
+
+                        Performance testing
+
+                    </span>
+                </p>
+
             </div>
         </div>
 
 
 
         <div class="row my-4 no-gutters">
-            <div class="col-md-12 col-lg-4  bg-white p-3">
+            <div class="col-md-12 col-lg-5  bg-white p-3 pt-7">
 
-                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
-                    reprehenderit maxime
-                    commodi
-                    explicabo doloribus ab</h3>
+                <h3 class=" px-5 pt-5">User Management</h3>
 
-                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
-                    maiores
-                    dolorem
-                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
-                    aliquam?
+                <p class=" px-5 d-flex mt-4">
+                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">
+
+                        Block users access
+
+                    </span>
+                </p>
+                <p class=" px-5 d-flex ">
+                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">
+
+                        Clear defined user roles
+
+                    </span>
+                </p>
+                <p class=" px-5 d-flex ">
+                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">
+
+                        Add unlimited users
+
+                    </span>
                 </p>
 
             </div>
-            <div class="col-md-12 col-lg-8">
-                <video src="assets/videos/7479-access-denied.mp4" autoplay loop></video>
+            <div class="col-md-12 col-lg-7">
+                <video src="assets/videos/41291-human-resources-approval-animation.mp4" autoplay loop></video>
             </div>
 
 
@@ -881,44 +926,49 @@ easier to read */
 
 
         <div class="row my-4 no-gutters">
-            <div class="col-md-12 col-lg-4  bg-white p-3">
+            <div class="col-md-12 col-lg-5  bg-white p-3">
 
-                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
-                    reprehenderit maxime
-                    commodi
-                    explicabo doloribus ab</h3>
+                <h3 class=" px-5 pt-5">Moving to Edaji is easy</h3>
 
-                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
-                    maiores
-                    dolorem
-                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
-                    aliquam?
+                <p class="px-5">Changing the way you manage your business can seem like a big step. That’s why we make
+                    it easy to make the switch to Edaji.
+
+                    Find the freedom and flexibility you need to run your business anytime, anywhere. Import your data
+                    from Excel
                 </p>
 
             </div>
-            <div class="col-md-12 col-lg-8">
+            <div class="col-md-12 col-lg-7">
                 <video src="assets/videos/58665-open-excel-at-cloud.mp4" autoplay loop></video>
             </div>
 
 
         </div>
         <div class="row my-4 no-gutters">
-            <div class="col-md-12 col-lg-8">
+            <div class="col-md-12 col-lg-7">
                 <video src="assets/videos/1766-bar-graph.mp4" autoplay loop></video>
             </div>
 
-            <div class="col-md-12 col-lg-4  bg-white p-3">
+            <div class="col-md-12 col-lg-5 bg-white p-3">
 
-                <h3 class=" px-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint a
-                    reprehenderit maxime
-                    commodi
-                    explicabo doloribus ab</h3>
+                <h3 class=" px-5 pt-5">Reports & Dashboard</h3>
 
-                <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi tempore fugiat
-                    maiores
-                    dolorem
-                    saepe. Officia, hic consectetur earum ipsum, quaerat quod vitae id ea nulla eos velit tenetur
-                    aliquam?
+                <p class="px-5">Gain insights into every aspect of your business and make informed, data driven
+                    decisions.
+                </p>
+                <p class=" px-5 d-flex">
+                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">
+
+                        A Handy Dashboard To See New Cleints
+                    </span>
+                </p>
+                <p class=" px-5 d-flex">
+                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <span class="pl-3">
+
+                        A Handy Dashboard To See Travelled Clients
+                    </span>
                 </p>
 
             </div>
@@ -927,18 +977,19 @@ easier to read */
         </div>
     </article>
 </section>
-<section class="cta position-relative py-5 my-5">
+<section class="cta position-relative ">
 
     <div class="cta-text position-absolute">
         <h2 class="display-3 text-aqua ">Ready to Get Started</h2>
         <p class=" text-aqua"> Starting using and the first month is on us ,no credit needed to get started </p>
-        <button class="btn btn-block btn-lg btn-white w-25 h-100 mt-0 mx-auto">Hire me</button>
+        <a class="btn btn-block btn-lg btn-white w-25 h-100 mt-0 mx-auto" href="https://edaji.co.ke/company">Try it for
+            free</a>
 
     </div>
     <img src="assets/img/web/Mask Group 56.jpg" alt="" class="cta-img">
 </section>
 <section class="unconviced"></section>
-<section class="testimonials">
+<section class="testimonials bg-white py-5" id="testimonials">
 
 
 
@@ -1052,7 +1103,7 @@ easier to read */
         </div>
     </div>
 </section>
-<section class="pricing my-5 py-5">
+<section class="pricing  py-5" id="pricing">
 
 
 
@@ -1064,7 +1115,8 @@ easier to read */
         <div class="subscription row align-items-center justify-content-center">
             <h3 class="text-muted">Billed Monthly</h3>
             <label class="switch mx-3">
-                <input type="checkbox" name="subscription" autocomplete="off" /> <span class="slider round"></span>
+                <input required type="checkbox" name="subscription" autocomplete="off" /> <span
+                    class="slider round"></span>
             </label>
             <h3>
                 Billed Yearly <span class="badge badge-success">Save Upto 20%</span>
@@ -1072,7 +1124,7 @@ easier to read */
         </div>
         <div class="plans row no-gutters my-6">
             <label class="plan-card col d-none ">
-                <input type="radio" class="plan-radio" name="plan-radio" value="2" />
+                <input required type="radio" class="plan-radio" name="plan-radio" value="2" />
                 <div class="card plan shadow-none  rounded-lg p-3">
                     <h3 class="plan-name text-center">Lite</h3>
                     <h1 class="plan-name text-center h1 pb-3">KES <span class="price">2,500</span></h1>
@@ -1086,7 +1138,7 @@ easier to read */
                 </div>
             </label>
             <label class="plan-card col-md-12 col-lg order-sm-1  order-2">
-                <input type="radio" class="plan-radio" name="plan-radio" value="4" />
+                <input required type="radio" class="plan-radio" name="plan-radio" value="4" />
                 <div class="card plan shadow-none  rounded-lg p-3">
                     <h3 class="plan-name text-center">Ultra</h3>
                     <h1 class="plan-name text-center h1 pb-3">KES <span class="price">3,500</span></h1>
@@ -1106,7 +1158,7 @@ easier to read */
                 </div>
             </label>
             <label class="plan-card col-md-12 col-lg order-sm-2 order-1">
-                <input type="radio" class="plan-radio" name="plan-radio" checked value="3" />
+                <input required type="radio" class="plan-radio" name="plan-radio" checked value="3" />
                 <div class="card plan shadow-none  rounded-lg p-3">
                     <h3 class="plan-name text-center">plus</h3>
                     <h1 class="plan-name text-center h1 pb-1">KES <span class="price">3,000</span></h1>
@@ -1125,7 +1177,7 @@ easier to read */
             </label>
 
             <label class="plan-card col-md-12 col-lg order-sm-3 order-3 ">
-                <input type="radio" class="plan-radio" name="plan-radio" value="5" />
+                <input required type="radio" class="plan-radio" name="plan-radio" value="5" />
                 <div class="card plan shadow-none  rounded-lg p-3">
                     <h3 class="plan-name text-center">Premium</h3>
                     <h1 class="plan-name text-center h1 pb-3">KES <span class="price">4,500</span></h1>
@@ -1151,79 +1203,79 @@ easier to read */
     </div>
 
 </section>
-<section class="faq bg-white py-5 my-5">
+<section class="faq bg-white py-5 ">
 
 
 
-    <h2 class="display-3 text-center">Frequently Asked Questions</h2>
+    <h2 class="display-3 text-center mt-5 py-3">Frequently Asked Questions</h2>
     <h4 class="h4 mx-5 px-5 mb-5 font-weight-400 pt-3 text-center">
         We are here for you, feel free to pay us a visit anytime
     </h4>
 
-    <section class="row position-relative" id="#faq">
-        <article class="row mt-5 container mx-5">
+    <section class=" position-relative pb-5 container" id="#faq">
+        <article class="row my-5  ">
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 2050.svg"
-                        alt="Generic placeholder image">
+                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg"
+                        style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
-                        <h5 class="mt-0">How do I get Started</h5>
-                        Pay us a visit or call us ,you can find our contacts below
+                        <h4 class="mb-0 pt-1">How do I get Started</h4>
+                        <p><a href="https://edaji.co.ke/company">By clicking on this link</a> </p>
+
                     </div>
                 </div>
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 2050.svg"
-                        alt="Generic placeholder image">
+                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg"
+                        style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
-                        <h5 class="mt-0">How do I get Started</h5>
-                        Pay us a visit or call us ,you can find our contacts below
+                        <h4 class="mb-0 pt-1">Do I get my data back when I stop using the system</h4>
+                        <p class=""> <strong>Yes you do you would be able to download your data in an excel
+                                file</strong></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="media">
+                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg"
+                        style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <div class="media-body">
+                        <h4 class="mb-0 pt-1">Can I stop anytime</h4>
+                        <p class=""> <strong>You can go to the settings page then head to the plan tab and click
+                                stop</strong></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="media">
+                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg"
+                        style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <div class="media-body">
+                        <h4 class="mb-0 pt-1">How do i reset my password</h4>
+                        <p><a href="https://edaji.co.ke/forgotpassword">By clicking on this link ,you will be able to
+                                reset your password</a> </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="media">
+                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg"
+                        style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <div class="media-body">
+                        <h4 class="mb-0 pt-1">How do i make a new request feature</h4>
+                        <p><a href="#contact">By sending us an email below</a> </p>
+
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-12 col-lg-6">
-                <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 2050.svg"
-                        alt="Generic placeholder image">
-                    <div class="media-body">
-                        <h5 class="mt-0">How do I get Started</h5>
-                        Pay us a visit or call us ,you can find our contacts below
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-6">
-                <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 2050.svg"
-                        alt="Generic placeholder image">
-                    <div class="media-body">
-                        <h5 class="mt-0">How do I get Started</h5>
-                        Pay us a visit or call us ,you can find our contacts below
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-md-12 col-lg-6">
-                <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 2050.svg"
-                        alt="Generic placeholder image">
-                    <div class="media-body">
-                        <h5 class="mt-0">How do I get Started</h5>
-                        Pay us a visit or call us ,you can find our contacts below
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-6">
-                <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 2050.svg"
-                        alt="Generic placeholder image">
-                    <div class="media-body">
-                        <h5 class="mt-0">How do I get Started</h5>
-                        Pay us a visit or call us ,you can find our contacts below
-                    </div>
-                </div>
-            </div>
+
+
         </article>
     </section>
 
@@ -1236,15 +1288,20 @@ easier to read */
         <h2 class="display-3 text-center py-5 my-5">Drop A Message</h2>
         <div class="form-group w-50">
             <label for="" class="text-left">Fullname</label>
-            <input type="text" placeholder="joe doe" class="form-control" name="name">
+            <input required type="text" placeholder="joe doe" class="form-control" name="name">
         </div>
         <div class="form-group w-50">
             <label for="" class="text-left">Email</label>
-            <input type="email" placeholder="joedoe@gmail.com" class="form-control" name="email">
+            <input required type="email" placeholder="joedoe@gmail.com" class="form-control" name="email">
+        </div>
+        <div class="form-group w-50">
+            <label for="" class="text-left">Subject</label>
+            <input required type="text" placeholder="i wanted to request a new feature" class="form-control"
+                name="subject">
         </div>
         <div class="form-group w-50">
             <label for="" class="text-left">Phone Number</label>
-            <input type="tel" placeholder="123456789" class="form-control" name="phone">
+            <input required type="tel" placeholder="123456789" class="form-control" name="phone">
         </div>
         <div class="form-group w-50">
             <label for="" class="text-left">Message</label>
@@ -1281,12 +1338,10 @@ easier to read */
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                             <!-- Content -->
-                            <h6 class="text-uppercase font-weight-bold">Company name</h6>
+                            <h6 class="text-uppercase font-weight-bold">EDAJI SYSTEMS LTD</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
-                                amet,
-                                consectetur
-                                adipisicing elit.</p>
+                            <p>Edaji is a system developed to help recruitment agencies to save time, streamline their
+                                workflow and provide consistency</p>
 
                         </div>
                         <!-- Grid column -->
@@ -1295,19 +1350,19 @@ easier to read */
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
                             <!-- Links -->
-                            <h6 class="text-uppercase font-weight-bold">Products</h6>
+                            <h6 class="text-uppercase font-weight-bold">Links</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>
-                                <a href="#!">MDBootstrap</a>
+                                <a href="#hero">Home</a>
                             </p>
                             <p>
-                                <a href="#!">MDWordPress</a>
+                                <a href="https://edaji.co.ke/company">New Company</a>
                             </p>
                             <p>
-                                <a href="#!">BrandFlow</a>
+                                <a href="https://edaji.co.ke/">Login</a>
                             </p>
                             <p>
-                                <a href="#!">Bootstrap Angular</a>
+                                <a href="terms">Terms & Conditions</a>
                             </p>
 
                         </div>
@@ -1320,16 +1375,14 @@ easier to read */
                             <h6 class="text-uppercase font-weight-bold">Useful links</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>
-                                <a href="#!">Your Account</a>
+                                <a href="https://edaji.co.ke/">Your Account</a>
                             </p>
                             <p>
                                 <a href="#!">Become an Affiliate</a>
                             </p>
+
                             <p>
-                                <a href="#!">Shipping Rates</a>
-                            </p>
-                            <p>
-                                <a href="#!">Help</a>
+                                <a href="https://edaji.co.ke/contact">Help</a>
                             </p>
 
                         </div>
@@ -1342,13 +1395,13 @@ easier to read */
                             <h6 class="text-uppercase font-weight-bold">Contact</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>
-                                <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                                <i class="fas fa-home mr-3"></i> Nairobi, Hughes Building 5th floor, Kenya</p>
                             <p>
-                                <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                                <i class="fas fa-envelope mr-3"></i> info@edaji.co.ke</p>
                             <p>
-                                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                                <i class="fas fa-phone mr-3"></i> + 254 721 410 502</p>
                             <p>
-                                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                                <i class="fas fa-phone mr-3"></i> + 254 708 693 536</p>
 
                         </div>
                         <!-- Grid column -->
@@ -1395,8 +1448,8 @@ easier to read */
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        <a href="#!"> EDAJI SYSTEMS LTD</a>
     </div>
     <!-- Copyright -->
 

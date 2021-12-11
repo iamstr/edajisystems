@@ -8,10 +8,7 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Group_2050" data-name="Group 2050" transform="translate(-248 -7562)">
-    <g transform="matrix(1, 0, 0, 1, 248, 7562)" filter="url(#Rectangle_241)">
-      <rect id="Rectangle_241-2" data-name="Rectangle 241" width="73" height="70" rx="15" transform="translate(30 20)" fill="#ffe014" opacity="0.1"/>
-    </g>
-    <text id="_" data-name="?" transform="translate(315 7634)" fill="#feb301" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="51" font-family="SitkaSubheading-Bold, Sitka Subheading" font-weight="700"><tspan x="-12.761" y="0">?</tspan></text>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_241)">
+    <rect id="Rectangle_241-2" data-name="Rectangle 241" width="73" height="70" rx="15" transform="translate(30 20)" fill="#ffe014" opacity="0.1"/>
   </g>
 </svg>
