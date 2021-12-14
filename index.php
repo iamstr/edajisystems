@@ -1296,7 +1296,7 @@
             $mail = new PHPMailer();
 
             $mail->CharSet =  "utf-8";
-            // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+            $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
 
             $mail->IsSMTP();
             // enable SMTP authentication
