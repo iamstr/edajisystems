@@ -61,6 +61,7 @@ a.nav-link.scroll {
 
 nav.backdrop-filter {
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   background-color: #f7f7f717;
 }
 
