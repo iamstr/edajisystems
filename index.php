@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="title" content="Edaji ">
-    <meta name="description"
-        content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
+    <meta name="description" content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
     <meta name="keywords" content="edaji is the leading recruitment software for agencies with an all-in-one dashboard designed to custom,
         suit your business needs at affordable price best recruitment software for agencies,
         best recruitment software for agencies kenya,
@@ -29,26 +28,21 @@
     <!-- Primary Meta Tags -->
     <title>Edaji | Agency work made Easier</title>
     <meta name="title" content="Edaji">
-    <meta name="description"
-        content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
+    <meta name="description" content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://metatags.io/">
     <meta property="og:title" content="Edaji">
-    <meta property="og:description"
-        content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
-    <meta property="og:image"
-        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="og:description" content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://metatags.io/">
     <meta property="twitter:title" content="Edaji">
-    <meta property="twitter:description"
-        content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
-    <meta property="twitter:image"
-        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="twitter:description" content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/edaji/apple-icon-57x57.png">
@@ -76,8 +70,7 @@
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css'>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
 
     <!-- Page plugins -->
     <!-- Argon CSS -->
@@ -323,7 +316,9 @@
 
     a.nav-link.scroll {
 
-        color: #fff;
+        background-image: linear-gradient(to right, #ba81cf, #6886d4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .hero-main {
@@ -370,8 +365,8 @@ easier to read */
     }
 
     nav.backdrop-filter {
-        backdrop-filter: blur(10px);
-        background-color: #9083fb63;
+        backdrop-filter: blur(15px);
+        background-color: #f7f7f717;
     }
 
     body {
@@ -622,14 +617,10 @@ easier to read */
 
 <header class="header">
     <nav class="navbar navbar-expand-lg  fixed-top shadow pl-5 backdrop-filter">
-        <a class="navbar-brand" href="#home"><img loading="lazy" src="assets/img/edaji/favicon-96x96.png"
-                alt="EDAJI SYSTEMS LTD" width="30" height="30"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+        <a class="navbar-brand" href="#home"><img loading="lazy" src="assets/img/edaji/favicon-96x96.png" alt="EDAJI SYSTEMS LTD" width="30" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
                     </path>
                 </svg></span>
         </button>
@@ -766,11 +757,11 @@ easier to read */
 
         <div class="row my-4 no-gutters">
 
-            <div class="col-md-12 col-lg-5 order-1 order-sm-2 ">
+            <div class="col-md-12 col-lg-5 order-2 order-sm-1 ">
                 <video class="w-100" src="assets/videos/8172-file-folderbox.mp4" autoplay loop></video>
             </div>
 
-            <div class="col-md-12 col-lg-7  bg-white p-3  order-sm-1 order-2">
+            <div class="col-md-12 col-lg-7  bg-white p-3 order-1  order-sm-2 ">
                 <h3 class=" px-lg-5 pt-5">All Your Client Files are backed up in the Cloud</h3>
                 <p class="px-lg-5">Your documents are stored in a secure cloud and are perfectly safe, yet if you wish,
                     you
@@ -783,11 +774,11 @@ easier to read */
         </div>
         <div class="row my-4 no-gutters">
 
-            <div class="col-md-12 col-lg-8 order-1 order-sm-2 ">
+            <div class="col-md-12 col-lg-8 order-2 order-sm-1 ">
                 <video class="w-100  " src="assets/videos/55929-dasera-usercloud-interaction.mp4" autoplay loop></video>
             </div>
 
-            <div class="col-md-12 col-lg-4  bg-white p-3 ">
+            <div class="col-md-12 col-lg-4  bg-white p-3  ">
                 <h3 class=" px-lg-5 pt-5">Multiple Access At Once</h3>
                 <p class="px-lg-5"> use concurrently and accessible to you from every PC, Mac, tablet
                     or smartphone with an internet connection. Work from Anywhere
@@ -796,11 +787,11 @@ easier to read */
         </div>
         <div class="row my-4 no-gutters">
 
-            <div class="col-md-12 col-lg-8 order-1 order-sm-2 ">
+            <div class="col-md-12 col-lg-8 order-2 order-sm-1 ">
                 <video class="w-100 " src="assets/videos/6776-blushing-ghost.mp4" autoplay loop></video>
             </div>
 
-            <div class="col-md-12 col-lg-4  bg-white p-3">
+            <div class="col-md-12 col-lg-4  bg-white p-3 order-1 order-sm-2">
 
                 <h3 class=" px-lg-5 pt-5">Ease of Use</h3>
                 <p class="px-lg-5">Edaji is developed with you in mind and is simple to use, and additional information
@@ -816,11 +807,14 @@ easier to read */
                 <p class="px-lg-5">Our integrated accounting software packages are designed with your company in mind
                 </p>
                 <p class="px-lg-5"><img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
-                    <span class="pl-3">Track Client Expenses</span></p>
+                    <span class="pl-3">Track Client Expenses</span>
+                </p>
                 <p class="px-lg-5"><img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
-                    <span class="pl-3">Track Operation Costs</span></p>
+                    <span class="pl-3">Track Operation Costs</span>
+                </p>
                 <p class="px-lg-5"><img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
-                    <span class="pl-3">Record Your Revenue</span></p>
+                    <span class="pl-3">Record Your Revenue</span>
+                </p>
 
             </div>
             <div class="col-md-12 col-lg-7">
@@ -847,10 +841,10 @@ easier to read */
 
 
         <div class="row my-7 no-gutters py-5 h-100">
-            <div class="col-md-12 col-lg-7 bg-white py-5 order-1 order-sm-2  ">
+            <div class="col-md-12 col-lg-7 bg-white py-5 order-2 order-sm-1  ">
                 <img src="assets/img/web/hero-image.png" alt="" style="width: 100%;">
             </div>
-            <div class=" col-md-12 col-lg-5 bg-white pt-5 pl-3">
+            <div class=" col-md-12 col-lg-5 bg-white pt-5 pl-3 order-1 order-sm-2">
                 <h3 class=" px-lg-5 pt-5">Support & Maintenance</h3>
                 <p class=" px-lg-5 pt-2 pr-3">Our technical and user support, and ongoing content updates from time to
                     time.</p>
@@ -933,8 +927,7 @@ easier to read */
 
             </div>
             <div class="col-md-12 col-lg-7">
-                <video class="w-100" src="assets/videos/41291-human-resources-approval-animation.mp4" autoplay
-                    loop></video>
+                <video class="w-100" src="assets/videos/41291-human-resources-approval-animation.mp4" autoplay loop></video>
             </div>
 
 
@@ -962,11 +955,11 @@ easier to read */
 
         </div>
         <div class="row my-4 no-gutters">
-            <div class="col-md-12 col-lg-7 order-1 order-sm-2 ">
+            <div class="col-md-12 col-lg-7  order-2 order-sm-1 ">
                 <video class="w-100" src="assets/videos/1766-bar-graph.mp4" autoplay loop></video>
             </div>
 
-            <div class="col-md-12 col-lg-5 bg-white p-3">
+            <div class="col-md-12 col-lg-5 bg-white p-3 order-1 order-sm-2">
 
                 <h3 class=" px-lg-5 pt-5">Reports & Dashboard</h3>
 
@@ -1019,17 +1012,12 @@ easier to read */
         <div class="owl-carousel owl-theme">
             <div class="owl-item">
                 <div class="card-testimonial d-flex flex-column shadow rounded">
-                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
-                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
-                            class="fas fa-star active-star"></span> <span
-                            class="fas fa-star-half-alt active-star"></span>
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
                     </div>
                     <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                     <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
                         molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                            alt="" class="rounded-circle">
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
                         <div class="d-flex flex-column pl-2">
                             <div class="name">Megan</div>
                             <p class="text-muted designation">CEO of My Company</p>
@@ -1039,17 +1027,12 @@ easier to read */
             </div>
             <div class="owl-item">
                 <div class="card-testimonial d-flex flex-column shadow rounded">
-                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
-                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
-                            class="fas fa-star active-star"></span> <span
-                            class="fas fa-star-half-alt active-star"></span>
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
                     </div>
                     <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                     <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
                         molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                            alt="" class="rounded-circle">
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
                         <div class="d-flex flex-column pl-2">
                             <div class="name">Megan</div>
                             <p class="text-muted designation">CEO of My Company</p>
@@ -1059,17 +1042,12 @@ easier to read */
             </div>
             <div class="owl-item">
                 <div class="card-testimonial d-flex flex-column shadow rounded">
-                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
-                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
-                            class="fas fa-star active-star"></span> <span
-                            class="fas fa-star-half-alt active-star"></span>
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
                     </div>
                     <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                     <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
                         molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                            alt="" class="rounded-circle">
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
                         <div class="d-flex flex-column pl-2">
                             <div class="name">Megan</div>
                             <p class="text-muted designation">CEO of My Company</p>
@@ -1079,17 +1057,12 @@ easier to read */
             </div>
             <div class="owl-item">
                 <div class="card-testimonial d-flex flex-column shadow rounded">
-                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
-                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
-                            class="fas fa-star active-star"></span> <span
-                            class="fas fa-star-half-alt active-star"></span>
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
                     </div>
                     <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                     <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
                         molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                            alt="" class="rounded-circle">
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
                         <div class="d-flex flex-column pl-2">
                             <div class="name">Megan</div>
                             <p class="text-muted designation">CEO of My Company</p>
@@ -1099,17 +1072,12 @@ easier to read */
             </div>
             <div class="owl-item">
                 <div class="card-testimonial d-flex flex-column shadow rounded">
-                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
-                            class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span
-                            class="fas fa-star active-star"></span> <span
-                            class="fas fa-star-half-alt active-star"></span>
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
                     </div>
                     <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                     <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
                         molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                            alt="" class="rounded-circle">
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
                         <div class="d-flex flex-column pl-2">
                             <div class="name">Megan</div>
                             <p class="text-muted designation">CEO of My Company</p>
@@ -1132,8 +1100,7 @@ easier to read */
         <div class="subscription row align-items-center justify-content-center">
             <h3 class="text-muted">Billed Monthly</h3>
             <label class="switch mx-3">
-                <input required type="checkbox" name="subscription" autocomplete="off" /> <span
-                    class="slider round"></span>
+                <input required type="checkbox" name="subscription" autocomplete="off" /> <span class="slider round"></span>
             </label>
             <h3>
                 Billed Yearly <span class="badge badge-success">Save Upto 20%</span>
@@ -1233,8 +1200,7 @@ easier to read */
         <article class="row my-5  ">
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg"
-                        style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
                         <h4 class="mb-0 pt-1">How do I get Started</h4>
                         <p><a href="https://edaji.co.ke/company">By clicking on this link</a> </p>
@@ -1244,8 +1210,7 @@ easier to read */
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg"
-                        style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
                         <h4 class="mb-0 pt-1">Do I get my data back when I stop using the system</h4>
                         <p class=""> <strong>Yes you do you would be able to download your data in an excel
@@ -1256,8 +1221,7 @@ easier to read */
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg"
-                        style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
                         <h4 class="mb-0 pt-1">Can I stop anytime</h4>
                         <p class=""> <strong>You can go to the settings page then head to the plan tab and click
@@ -1268,8 +1232,7 @@ easier to read */
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg"
-                        style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
                         <h4 class="mb-0 pt-1">How do i reset my password</h4>
                         <p><a href="https://edaji.co.ke/forgotpassword">By clicking on this link ,you will be able to
@@ -1280,8 +1243,7 @@ easier to read */
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg"
-                        style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
                         <h4 class="mb-0 pt-1">How do i make a new request feature</h4>
                         <p><a href="#contact">By sending us an email below</a> </p>
@@ -1299,9 +1261,109 @@ easier to read */
 
 </section>
 <section class="contact">
+    <?php
 
-    <form class="container d-flex flex-column justify-content-center align-items-center" id="contact" method="post"
-        action="/index.php">
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
+    use PHPMailer\PHPMailer\Exception;
+
+
+    require_once "config.php";
+    require_once 'vendor/autoload.php';
+
+    $valid["message"] = "something went wrong ";
+    if (isset($_POST['email'])) {
+
+
+
+
+        //Load Composer's autoloader
+
+
+        //Create an instance; passing `true` enables exceptions
+        $mail = new PHPMailer(true);
+
+
+        $emailId = $_POST['email'];
+        $message = $_POST['message'];
+        $name = $_POST['name'];
+        $phone = $_POST['phone'];
+        $subject = $_POST['subject'];
+
+
+
+        if (isset($emailId)) {
+
+
+
+
+
+            $mail = new PHPMailer();
+
+            $mail->CharSet =  "utf-8";
+            // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+
+            $mail->IsSMTP();
+            // enable SMTP authentication
+            $mail->SMTPAuth = true;
+            // GMAIL username
+            $mail->Username = $mailconfig["username"];
+            // GMAIL password
+            $mail->Password = $mailconfig["password"];
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+            // sets GMAIL as the SMTP server
+            $mail->Host = $mailconfig["host"];
+            // set the SMTP port for the GMAIL server
+            $mail->Port = $mailconfig["port"];
+            $mail->From = $emailId;
+            $mail->FromName = $name;
+            $mail->AddAddress($mailconfig["username"], $name);
+
+            $mail->Subject  =  $subject;
+            $mail->IsHTML(true);
+            $mail->Body    =  $message . " Here is my mobile phone ,contact me when you get this " . $phone;
+            if ($mail->Send()) {
+                $valid["message"] = "We got your message we will get back to you as soon as possible";
+                echo  '<div class="container mt-9"><div class="card shadow-none ">
+            <div class="card-body">
+                <div class="alert alert-success">' .
+                    '<button type="button" class="close" data-dismiss="alert">&times;</button>' .
+                    '<strong><i class="ni ni-like-2"></i></strong> ' . $valid["message"] .
+                    '</div>
+                     
+            </div>
+          </div>
+        </div>';
+            } else {
+                $valid["message"] = " something happened ";
+                echo  '<div class="container mt-9"><div class="card shadow-none">
+            <div class="card-body">
+                <div class="alert alert-success">' .
+                    '<button type="button" class="close" data-dismiss="alert">&times;</button>' .
+                    '<strong><i class="ni ni-like-2"></i></strong> ' . $valid["message"] .
+                    '</div>
+                       
+            </div>
+          </div>
+        </div>';
+            }
+        } else {
+            echo '<div class="container mt-9"><div class="card shadow-none ">
+            <div class="card-body">
+                <div class="alert alert-success">' .
+                '<button type="button" class="close" data-dismiss="alert">&times;</button>' .
+                '<strong><i class="ni ni-like-2"></i></strong> ' . $valid["message"] .
+                '</div>
+                   
+            </div>
+          </div>
+        </div>';
+        }
+    }
+
+
+    ?>
+    <form class="container d-flex flex-column justify-content-center align-items-center" id="contact" method="post" action="/index.php">
         <h2 class="display-3 text-center py-5 my-5">Drop A Message</h2>
         <div class="form-group w-50">
             <label for="" class="text-left">Fullname</label>
@@ -1313,8 +1375,7 @@ easier to read */
         </div>
         <div class="form-group w-50">
             <label for="" class="text-left">Subject</label>
-            <input required type="text" placeholder="i wanted to request a new feature" class="form-control"
-                name="subject">
+            <input required type="text" placeholder="i wanted to request a new feature" class="form-control" name="subject">
         </div>
         <div class="form-group w-50">
             <label for="" class="text-left">Phone Number</label>
@@ -1322,8 +1383,7 @@ easier to read */
         </div>
         <div class="form-group w-50">
             <label for="" class="text-left">Message</label>
-            <textarea name="message" id="message" cols="30" rows="30" class="form-control"
-                placeholder="i am contacting you over this job"></textarea>
+            <textarea name="message" id="message" cols="30" rows="30" class="form-control" placeholder="i am contacting you over this job"></textarea>
         </div>
 
         <button class="btn btn-block btn-linear-primary w-50">
@@ -1412,13 +1472,17 @@ easier to read */
                             <h6 class="text-uppercase font-weight-bold">Contact</h6>
                             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                             <p>
-                                <i class="fas fa-home mr-3"></i> Nairobi, Hughes Building 5th floor, Kenya</p>
+                                <i class="fas fa-home mr-3"></i> Nairobi, Hughes Building 5th floor, Kenya
+                            </p>
                             <p>
-                                <i class="fas fa-envelope mr-3"></i> info@edaji.co.ke</p>
+                                <i class="fas fa-envelope mr-3"></i> info@edaji.co.ke
+                            </p>
                             <p>
-                                <i class="fas fa-phone mr-3"></i> + 254 721 410 502</p>
+                                <i class="fas fa-phone mr-3"></i> + 254 721 410 502
+                            </p>
                             <p>
-                                <i class="fas fa-phone mr-3"></i> + 254 708 693 536</p>
+                                <i class="fas fa-phone mr-3"></i> + 254 708 693 536
+                            </p>
 
                         </div>
                         <!-- Grid column -->
@@ -1517,7 +1581,7 @@ easier to read */
 
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
 
 
 
@@ -1527,11 +1591,11 @@ easier to read */
 
 
 
-        $('[name="subscription"]').change(function () {
+        $('[name="subscription"]').change(function() {
             const beforePriceChange = ["2500", "3500", "3000", "4500"]
             if ($(this).prop('checked')) {
                 $(this).val("annually")
-                $(".price").each(function (index) {
+                $(".price").each(function(index) {
 
                     $(this).text((+$(this).text().replace(",", "") * 90 / 100 * 11)
                         .toLocaleString())
@@ -1540,7 +1604,7 @@ easier to read */
                 })
             } else {
                 $(this).val("monthly")
-                $(".price").each(function (index) {
+                $(".price").each(function(index) {
 
                     console.log($(this).text())
                     $(this).text((+beforePriceChange[index]).toLocaleString())
@@ -1556,7 +1620,7 @@ easier to read */
 
         const pathname = (window.location.pathname).replace("/", "")
 
-        $(".navbar-collapse a.nav-link ").each(function () {
+        $(".navbar-collapse a.nav-link ").each(function() {
             $(this).removeClass("active")
             if ($(this).attr("href") === pathname) {
                 $(this).addClass("active")
@@ -1572,7 +1636,7 @@ easier to read */
 
 
 
-            setTimeout(function (e) {
+            setTimeout(function(e) {
 
 
                 $(".flash").text(
@@ -1586,7 +1650,7 @@ easier to read */
                     "method": "GET"
                 }
 
-                $.ajax(settings).done(function (response) {
+                $.ajax(settings).done(function(response) {
                     const data = JSON.parse(response);
                     const index = Math.floor(Math.random() * data.length)
                     console.log(data);
@@ -1595,7 +1659,7 @@ easier to read */
    <footer class="blockquote-footer text-muted"><cite title="Source Title"> ${data[index].author?data[index].author :"anonymous" }</cite></footer>
  </blockquote>`;
 
-                    setTimeout(function (e) {
+                    setTimeout(function(e) {
                         $(".flash").html(block)
                     }, 2000)
                 });
@@ -1611,7 +1675,7 @@ easier to read */
 
 
 
-        $('.modal').on('hidden.bs.modal', function (e) {
+        $('.modal').on('hidden.bs.modal', function(e) {
 
             $(".selection-modal").children().remove()
         })
@@ -1623,7 +1687,7 @@ easier to read */
     })
 </script>
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         var silder = $(".owl-carousel");
         silder.owlCarousel({
             autoPlay: false,
@@ -1660,7 +1724,7 @@ easier to read */
 <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
-    (function () {
+    (function() {
         var s1 = document.createElement("script"),
             s0 = document.getElementsByTagName("script")[0];
         s1.async = true;
