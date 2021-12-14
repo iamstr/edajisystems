@@ -175,7 +175,7 @@
         background-image: linear-gradient(#6937fa, #7364f9);
 
         transform: scale(1.08);
-        position: absolute;
+        /* position: absolute; */
         z-index: 10;
     }
 
@@ -327,25 +327,20 @@
         backdrop-filter: blur(50px);
     }
 
-    /* The hero image */
-    .hero-image {
-        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text
-easier to read */
-        /* background-image: url("assets/img/web/Mask\ Group\ 1.svg"); */
 
-        /* Set a specific height */
+    .hero-image {
+
         height: 100%;
         width: 100%;
 
-        /* Position and center the image to scale nicely on all screens */
+
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        /* position: relative; */
+
 
     }
 
-    /* Place text in the middle of the image */
     .hero-text {
         text-align: center;
         position: absolute;
@@ -385,7 +380,7 @@ easier to read */
         display: inline-flex;
         width: 30rem;
         height: 200px;
-        /* animation: slide 22s ease infinite; */
+
 
     }
 
@@ -658,12 +653,12 @@ easier to read */
         <!-- <img src="assets/img/web/Group2036.svg" alt="Flowers" style="" class="hero-main-pic"> -->
     </div>
     <div class="hero-image mb-7">
-        <div class="hero-text w-100">
+        <div class="hero-text ">
             <h1 class="text-white display-3">Edaji is a recruitment solution tailored for your business</h1>
             <!-- <p>Save time, boost your productivity,better workflow processesr</p> -->
             <p>It is the ultimate recruitment solution tailored for recruitment agencies. With edaji, you can access
                 all of your workforce data in one place and easily manage your clients.</p>
-            <div class="d-lg-flex justify-content-center flex-sm-column flex-lg-row ">
+            <div class="d-flex justify-content-center flex-sm-column flex-lg-row align-items-center">
                 <button class="btn btn-block btn-lg btn-white w-25">Try For Free</button>
                 <button class="btn btn-block btn-lg btn-outline-white w-25 h-100 mt-0">Learn More</button>
 
@@ -1365,30 +1360,51 @@ easier to read */
     ?>
     <form class="container d-flex flex-column justify-content-center align-items-center" id="contact" method="post" action="/index.php">
         <h2 class="display-3 text-center py-5 my-5">Drop A Message</h2>
-        <div class="form-group w-50">
-            <label for="" class="text-left">Fullname</label>
-            <input required type="text" placeholder="joe doe" class="form-control" name="name">
+        <div class="row w-100">
+            <div class="col-md-12 col-lg-6">
+                <div class="form-group">
+                    <label for="" class="text-left">Fullname</label>
+                    <input required type="text" placeholder="joe doe" class="form-control" name="name">
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="form-group">
+                    <label for="" class="text-left">Email</label>
+                    <input required type="email" placeholder="joedoe@gmail.com" class="form-control" name="email">
+                </div>
+            </div>
         </div>
-        <div class="form-group w-50">
-            <label for="" class="text-left">Email</label>
-            <input required type="email" placeholder="joedoe@gmail.com" class="form-control" name="email">
-        </div>
-        <div class="form-group w-50">
-            <label for="" class="text-left">Subject</label>
-            <input required type="text" placeholder="i wanted to request a new feature" class="form-control" name="subject">
-        </div>
-        <div class="form-group w-50">
-            <label for="" class="text-left">Phone Number</label>
-            <input required type="tel" placeholder="123456789" class="form-control" name="phone">
-        </div>
-        <div class="form-group w-50">
-            <label for="" class="text-left">Message</label>
-            <textarea name="message" id="message" cols="30" rows="30" class="form-control" placeholder="i am contacting you over this job"></textarea>
+        <div class="row w-100">
+            <div class="col-md-12 col-lg-6">
+                <div class="form-group">
+                    <label for="" class="text-left">Subject</label>
+                    <input required type="text" placeholder="i wanted to request a new feature" class="form-control" name="subject">
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="form-group">
+                    <label for="" class="text-left">Phone Number</label>
+                    <input required type="tel" placeholder="123456789" class="form-control" name="phone">
+                </div>
+            </div>
         </div>
 
-        <button class="btn btn-block btn-linear-primary w-50">
-            Send Us a Message
-        </button>
+        <div class="row w-100 flex-start">
+
+            <div class="col">
+                <div class="form-group">
+                    <label for="" class="text-left">Message</label>
+                    <textarea name="message" id="message" cols="" rows="10" class="form-control" placeholder="i am contacting you over this job"></textarea>
+                </div>
+            </div>
+
+        </div>
+        <div class="row w-75">
+
+            <button class="btn btn-block btn-linear-primary btn-lg w-100 ">
+                Send Us a Message
+            </button>
+        </div>
     </form>
 </section>
 <section class="cta"></section>
@@ -1560,23 +1576,6 @@ easier to read */
             navigator.serviceWorker.register("./sw.js");
         }
     };
-
-    function is_touch_enabled() {
-        return ('ontouchstart' in window) ||
-            (navigator.maxTouchPoints > 0) ||
-            (navigator.msMaxTouchPoints > 0);
-    }
-
-    var src = "https://contribute.geeksforgeeks.org/wp-content/uploads/gfg-39.png";
-
-    if (is_touch_enabled()) {
-        $(".list-group-item.d-flex flex-row.justify-content-between.custom-list-group-item.tasks").bind(
-            "click touchstart")
-
-        //  alert()
-    } else {
-        var img = "";
-    }
 </script>
 
 
@@ -1618,56 +1617,6 @@ easier to read */
 
 
 
-        const pathname = (window.location.pathname).replace("/", "")
-
-        $(".navbar-collapse a.nav-link ").each(function() {
-            $(this).removeClass("active")
-            if ($(this).attr("href") === pathname) {
-                $(this).addClass("active")
-
-            } else {
-
-            }
-        })
-
-
-
-        if ($(".faded.flash").length) {
-
-
-
-            setTimeout(function(e) {
-
-
-                $(".flash").text(
-                    "We are detecting slow internet connection,be patient")
-
-
-                const settings = {
-                    "async": true,
-                    "crossDomain": true,
-                    "url": "https://type.fit/api/quotes",
-                    "method": "GET"
-                }
-
-                $.ajax(settings).done(function(response) {
-                    const data = JSON.parse(response);
-                    const index = Math.floor(Math.random() * data.length)
-                    console.log(data);
-                    const block = `<blockquote class="blockquote">
-   <p class="mb-1 font-italic ">${data[index].text}</p>
-   <footer class="blockquote-footer text-muted"><cite title="Source Title"> ${data[index].author?data[index].author :"anonymous" }</cite></footer>
- </blockquote>`;
-
-                    setTimeout(function(e) {
-                        $(".flash").html(block)
-                    }, 2000)
-                });
-
-            }, 5000)
-
-        }
-
 
 
 
@@ -1688,6 +1637,14 @@ easier to read */
 </script>
 <script>
     $(document).ready(function() {
+
+        if (screen.width < 800) {
+
+            $(".hero-text").addClass("w-100")
+        } else {
+
+            $(".hero-text").removeClass("w-100")
+        }
         var silder = $(".owl-carousel");
         silder.owlCarousel({
             autoPlay: false,
