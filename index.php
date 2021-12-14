@@ -76,12 +76,13 @@
     <link rel="stylesheet" href="assets/css/testimonial.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/edaji.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/plan.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
     <script src="assets/vendor/jquery/dist/jquery.min.js" defer></script>
 </head>
 
 <header class="header">
     <nav class="navbar navbar-expand-lg  fixed-top shadow pl-5 backdrop-filter">
-        <a class="navbar-brand" href="#home"><img loading="lazy" src="assets/img/edaji/favicon-96x96.png" alt="EDAJI SYSTEMS LTD" width="30" height="30"></a>
+        <a class="navbar-brand" href="#home"><img  loading="lazy"    src="assets/img/edaji/favicon-96x96.png" alt="EDAJI SYSTEMS LTD" width="30" height="30"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
@@ -111,15 +112,15 @@
                     <a class="nav-link scroll" href="#contact">Contact Us</a>
                 </li>
             </ul>
-        </div>
+        </div>    
     </nav>
 </header>
 <section class="hero position-relative pb-5 mb-8 mt--8" id="hero">
     <div class="hero-main">
-        <!-- <img src="assets/img/web/Group2036.svg" alt="Flowers" style="" class="hero-main-pic"> -->
+        <!-- <img loading="lazy"src="assets/img/web/Group2036.svg" alt="Flowers" style="" class="hero-main-pic"> -->
     </div>
     <div class="hero-main">
-        <!-- <img src="assets/img/web/Group2036.svg" alt="Flowers" style="" class="hero-main-pic"> -->
+        <!-- <img loading="lazy"src="assets/img/web/Group2036.svg" alt="Flowers" style="" class="hero-main-pic"> -->
     </div>
     <div class="hero-image mb-7">
         <div class="hero-text ">
@@ -135,7 +136,7 @@
 
             <div class="hero-dashboard mb-7">
 
-                <img src="assets/img/web/Group2028.png" alt="" class="dashboard-img">
+                <img loading="lazy"src="assets/img/web/Group2028.png" alt="" class="dashboard-img">
             </div>
 
         </div>
@@ -148,14 +149,14 @@
     <div class="justify-content-center d-flex">
         <div class="partners-container mt-5 pt-5">
             <article class=" partners-img-containers  slide">
-                <img src="assets/img/company/MOYAT_LOGO.jpeg" alt="" class="partners-img" style="--delay: 0s">
-                <img src="assets/img/company/zakeir.png" alt="" class="partners-img" style="--delay: 1s">
-                <img src="assets/img/company/lipasama logo.jpg" alt="" class="partners-img" style="--delay: 2s">
-                <img src="assets/img/company/emitek_logo_png-1.png" alt="" class="partners-img" style="--delay: 3s">
-                <img src="assets/img/company/logo.jpg" alt="" class="partners-img" style="--delay: 4s">
-                <img src="assets/img/company/40/back.jpg" alt="" class="partners-img" style="--delay: 5s">
-                <img src="assets/img/company/40/back.jpg" alt="" class="partners-img" style="--delay: 6s">
-                <img src="assets/img/company/40/back.jpg" alt="" class="partners-img" style="--delay: 7s">
+                <img loading="lazy"src="assets/img/company/MOYAT_LOGO.jpeg" alt="" class="partners-img" style="--delay: 0s">
+                <img loading="lazy"src="assets/img/company/zakeir.png" alt="" class="partners-img" style="--delay: 1s">
+                <img loading="lazy"src="assets/img/company/lipasama logo.jpg" alt="" class="partners-img" style="--delay: 2s">
+                <img loading="lazy"src="assets/img/company/emitek_logo_png-1.png" alt="" class="partners-img" style="--delay: 3s">
+                <img loading="lazy"src="assets/img/company/logo.jpg" alt="" class="partners-img" style="--delay: 4s">
+                <img loading="lazy"src="assets/img/company/40/back.jpg" alt="" class="partners-img" style="--delay: 5s">
+                <img loading="lazy"src="assets/img/company/40/back.jpg" alt="" class="partners-img" style="--delay: 6s">
+                <img loading="lazy"src="assets/img/company/40/back.jpg" alt="" class="partners-img" style="--delay: 7s">
 
             </article>
 
@@ -170,7 +171,7 @@
         <article class="row mt-5 mx-lg-5">
             <div class="col-md-12 col-lg-4">
                 <div class="card p-4">
-                    <img loading="lazy" src="assets/img/icons/edaji-icons/Group 2046.svg" alt="" class="card-whwd ">
+                    <img  loading="lazy"    src="assets/img/icons/edaji-icons/Group 2046.svg" alt="" class="card-whwd ">
                     <h4 class="h4 text-left">Greater Record Keeping</h4>
                     <p class="text-muted text-left">
                         Designed with simplicity to help you
@@ -181,7 +182,7 @@
             </div>
             <div class="col-md-12 col-lg-4">
                 <div class="card p-4">
-                    <img loading="lazy" src="assets/img/icons/edaji-icons/Group 2047.svg" alt="" class="card-whwd ">
+                    <img  loading="lazy"    src="assets/img/icons/edaji-icons/Group 2047.svg" alt="" class="card-whwd ">
                     <h4 class="h4 text-left">Track Your Expenses</h4>
                     <p class="text-muted text-left">
                         Track all the in and out of your business
@@ -190,7 +191,7 @@
             </div>
             <div class="col-md-12 col-lg-4">
                 <div class="card p-4">
-                    <img loading="lazy" src="assets/img/icons/edaji-icons/Group 2048.svg" alt="" class="card-whwd ">
+                    <img  loading="lazy"    src="assets/img/icons/edaji-icons/Group 2048.svg" alt="" class="card-whwd ">
                     <h4 class="h4 text-left">Better File Organization</h4>
                     <p class="text-muted text-left">
                         A well structure for your file ,making sure
@@ -212,7 +213,7 @@
         <button class="btn btn-block btn-lg btn-white w-25 h-100 mt-0 mx-auto">Try it for free</button>
 
     </div>
-    <img src="assets/img/web/Mask Group 56.jpg" alt="" class="cta-img">
+    <img loading="lazy"src="assets/img/web/Mask Group 56.jpg" alt="" class="cta-img">
 </section>
 <section class="features py-5   " id="features">
     <article class="container p-5">
@@ -270,13 +271,13 @@
                 <h3 class=" px-lg-5 pt-5">Accounting made simple</h3>
                 <p class="px-lg-5">Our integrated accounting software packages are designed with your company in mind
                 </p>
-                <p class="px-lg-5"><img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                <p class="px-lg-5"><img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">Track Client Expenses</span>
                 </p>
-                <p class="px-lg-5"><img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                <p class="px-lg-5"><img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">Track Operation Costs</span>
                 </p>
-                <p class="px-lg-5"><img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                <p class="px-lg-5"><img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">Record Your Revenue</span>
                 </p>
 
@@ -306,7 +307,7 @@
 
         <div class="row my-7 no-gutters py-5 h-100">
             <div class="col-md-12 col-lg-7 bg-white py-5 order-2 order-sm-1  ">
-                <img src="assets/img/web/hero-image.png" alt="" style="width: 100%;">
+                <img loading="lazy"src="assets/img/web/hero-image.png" alt="" style="width: 100%;">
             </div>
             <div class=" col-md-12 col-lg-5 bg-white pt-5 pl-3 order-1 order-sm-2">
                 <h3 class=" px-lg-5 pt-5">Support & Maintenance</h3>
@@ -314,7 +315,7 @@
                     time.</p>
 
                 <p class=" px-lg-5 d-flex">
-                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">
 
                         Version upgrades & enhancements
@@ -322,7 +323,7 @@
                     </span>
                 </p>
                 <p class=" px-lg-5 d-flex">
-                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">
 
                         Comprehensive user support
@@ -330,7 +331,7 @@
                     </span>
                 </p>
                 <p class=" px-lg-5 d-flex">
-                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">
 
                         Technical troubleshooting
@@ -338,7 +339,7 @@
                     </span>
                 </p>
                 <p class=" px-lg-5 d-flex">
-                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">
 
                         Performance monitoring
@@ -346,7 +347,7 @@
                     </span>
                 </p>
                 <p class=" px-lg-5 d-flex pb-7">
-                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">
 
                         Performance testing
@@ -365,7 +366,7 @@
                 <h3 class=" px-lg-5 pt-5">User Management</h3>
 
                 <p class=" px-lg-5 d-flex mt-4">
-                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">
 
                         Block users access
@@ -373,7 +374,7 @@
                     </span>
                 </p>
                 <p class=" px-lg-5 d-flex ">
-                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">
 
                         Clear defined user roles
@@ -381,7 +382,7 @@
                     </span>
                 </p>
                 <p class=" px-lg-5 d-flex ">
-                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">
 
                         Add unlimited users
@@ -431,14 +432,14 @@
                     decisions.
                 </p>
                 <p class=" px-lg-5 d-flex">
-                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">
 
                         A Handy Dashboard To See New Cleints
                     </span>
                 </p>
                 <p class=" px-lg-5 d-flex">
-                    <img src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
+                    <img loading="lazy"src="assets/img/icons/edaji-icons/list.svg" alt="" width="36" height="36">
                     <span class="pl-3">
 
                         A Handy Dashboard To See Travelled Clients
@@ -460,7 +461,7 @@
             free</a>
 
     </div>
-    <img src="assets/img/web/Mask Group 56.jpg" alt="" class="cta-img">
+    <img loading="lazy"src="assets/img/web/Mask Group 56.jpg" alt="" class="cta-img">
 </section>
 <section class="unconviced"></section>
 <section class="testimonials bg-white py-5" id="testimonials">
@@ -478,13 +479,12 @@
                 <div class="card-testimonial d-flex flex-column shadow rounded">
                     <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
                     </div>
-                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
-                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
+                    <div class="main font-weight-bold pb-2 pt-1">User Friendly </div>
+                    <div class="testimonial">I am a recruitment agency and I was in search of the best recruitment software. This led me to edaji and ever since then it has been my favorite choice. Not only is this software extremely user-friendly but it also has a lot of features that can help me with my business. </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img loading="lazy"src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
                         <div class="d-flex flex-column pl-2">
-                            <div class="name">Megan</div>
-                            <p class="text-muted designation">CEO of My Company</p>
+                            <div class="name">Festo Omondi</div>
+                            <p class="text-muted designation">Manager of Dyanman </p>
                         </div>
                     </div>
                 </div>
@@ -494,12 +494,11 @@
                     <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
                     </div>
                     <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
-                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
+                    <div class="testimonial"> edaji systems has been an invaluable asset to our company. We can create profiles for each of our clients and upload their CVs, plus access the whole workforce data in one place. edaji has helped us manage our clients more effectively. </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img loading="lazy"src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
                         <div class="d-flex flex-column pl-2">
-                            <div class="name">Megan</div>
-                            <p class="text-muted designation">CEO of My Company</p>
+                            <div class="name">Osama Al Khateeb</div>
+                            <p class="text-muted designation">CEO of Alhaqq agencies</p>
                         </div>
                     </div>
                 </div>
@@ -508,13 +507,12 @@
                 <div class="card-testimonial d-flex flex-column shadow rounded">
                     <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
                     </div>
-                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
-                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
+                    <div class="main font-weight-bold pb-2 pt-1">Enhanced Our Workflow</div>
+                    <div class="testimonial"> Eased our pain for using alot softwares ,ie it brought everything together ;accounting,cleint info,documents under one umbrella and it has enhanced our workflow </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img loading="lazy"src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
                         <div class="d-flex flex-column pl-2">
-                            <div class="name">Megan</div>
-                            <p class="text-muted designation">CEO of My Company</p>
+                            <div class="name">Ifrah Abdullahi</div>
+                            <p class="text-muted designation">CEO of Hafiq</p>
                         </div>
                     </div>
                 </div>
@@ -523,13 +521,12 @@
                 <div class="card-testimonial d-flex flex-column shadow rounded">
                     <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
                     </div>
-                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
-                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
+                    <div class="main font-weight-bold pb-2 pt-1">Great Customer Help</div>
+                    <div class="testimonial"> I wanted to let you know how pleased I was with your service. The customer service person I talked to was very helpful and really helped me through the process. He seemed genuinely happy to help me. That's a rare quality these days </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img loading="lazy"src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
                         <div class="d-flex flex-column pl-2">
-                            <div class="name">Megan</div>
-                            <p class="text-muted designation">CEO of My Company</p>
+                            <div class="name">Joshua Mckenzie</div>
+                            <p class="text-muted designation">Staff at Kistamu</p>
                         </div>
                     </div>
                 </div>
@@ -538,13 +535,40 @@
                 <div class="card-testimonial d-flex flex-column shadow rounded">
                     <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
                     </div>
-                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores
-                        molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
+                    <div class="main font-weight-bold pb-2 pt-1">Amazing Software</div>
+                    <div class="testimonial"> "I am a recruitment agency and data handling is pretty much my bread and butter. edaji has been an absolute blessing for me and my business and I can't recommend them enough.". </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img loading="lazy"src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
                         <div class="d-flex flex-column pl-2">
-                            <div class="name">Megan</div>
-                            <p class="text-muted designation">CEO of My Company</p>
+                            <div class="name">Ness</div>
+                            <p class="text-muted designation">Staff at Shianshi International LTD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="card-testimonial d-flex flex-column shadow rounded">
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
+                    </div>
+                    <div class="main font-weight-bold pb-2 pt-1">Saved alot of my time</div>
+                    <div class="testimonial">  edaji systems has been a huge help to me. I can keep track of all my clients and their needs, which saves me a lot of time. I don't know what I would do without it!" </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img loading="lazy"src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
+                        <div class="d-flex flex-column pl-2">
+                            <div class="name">Eric Omollo</div>
+                            <p class="text-muted designation">CEO of Moyat Careers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="card-testimonial d-flex flex-column shadow rounded">
+                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>
+                    </div>
+                    <div class="main font-weight-bold pb-2 pt-1">Made my life easier</div>
+                    <div class="testimonial">   I've found that edaji systems has made my job so much easier. It's great to know all of the information about candidates in one place without having to worry about the data sharing between systems </div>
+                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img loading="lazy"src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
+                        <div class="d-flex flex-column pl-2">
+                            <div class="name">Haji</div>
+                            <p class="text-muted designation">CEO of Emitek Cleaning Services LTD</p>
                         </div>
                     </div>
                 </div>
@@ -664,7 +688,7 @@
         <article class="row my-5  ">
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <img  loading="lazy"    class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
                         <h4 class="mb-0 pt-1">How do I get Started</h4>
                         <p><a href="https://edaji.co.ke/company">By clicking on this link</a> </p>
@@ -674,7 +698,7 @@
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <img  loading="lazy"    class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
                         <h4 class="mb-0 pt-1">Do I get my data back when I stop using the system</h4>
                         <p class=""> <strong>Yes you do you would be able to download your data in an excel
@@ -685,7 +709,7 @@
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <img  loading="lazy"    class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
                         <h4 class="mb-0 pt-1">Can I stop anytime</h4>
                         <p class=""> <strong>You can go to the settings page then head to the plan tab and click
@@ -696,7 +720,7 @@
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <img  loading="lazy"    class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
                         <h4 class="mb-0 pt-1">How do i reset my password</h4>
                         <p><a href="https://edaji.co.ke/forgotpassword">By clicking on this link ,you will be able to
@@ -707,7 +731,7 @@
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="media">
-                    <img loading="lazy" class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
+                    <img  loading="lazy"    class="mr-3" src="assets/img/icons/edaji-icons/Group 1199.svg" style="width: 72px;height:72px;" alt="Generic placeholder image">
                     <div class="media-body">
                         <h4 class="mb-0 pt-1">How do i make a new request feature</h4>
                         <p><a href="#contact">By sending us an email below</a> </p>
