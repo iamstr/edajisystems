@@ -8,6 +8,9 @@
     <meta name="description" content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
     <meta name="keywords" content="edaji is the leading recruitment software for agencies with an all-in-one dashboard designed to custom,
         suit your business needs at affordable price best recruitment software for agencies,
+        Edaji Systems LTD,
+        edaji kenya,
+        edaji recruitment systems,
         best recruitment software for agencies kenya,
         free recruitment software for agencies in kenya,
         recruitment software for small agencies in kenya,
