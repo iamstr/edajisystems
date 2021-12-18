@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="title" content="Edaji ">
+    <meta name="title" content="Edaji Systems LTD">
     <meta name="description" content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
     <meta name="keywords" content="edaji is the leading recruitment software for agencies with an all-in-one dashboard designed to custom,
         suit your business needs at affordable price best recruitment software for agencies,
@@ -29,7 +29,7 @@
     <meta name="author" content="Abdisatar Mohamed">
 
     <!-- Primary Meta Tags -->
-    <title>Edaji | Agency work made Easier</title>
+    <title>Edaji Systems | Agency work made Easier</title>
     <meta name="title" content="Edaji">
     <meta name="description" content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
 
@@ -81,6 +81,16 @@
     <link rel="stylesheet" href="assets/css/plan.min.css" type="text/css">
     <link rel="stylesheet" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
     <script src="assets/vendor/jquery/dist/jquery.min.js" defer></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-215659084-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-215659084-1');
+</script>
 </head>
 
 <header class="header">
